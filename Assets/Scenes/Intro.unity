@@ -360,6 +360,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &258021688
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693855076861807940, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+      propertyPath: m_Name
+      value: Chara_Boss
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
 --- !u!1 &287192964
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,7 +732,7 @@ GameObject:
   - component: {fileID: 403397043}
   - component: {fileID: 403397042}
   m_Layer: 0
-  m_Name: Character-Passant 2
+  m_Name: Chara_Passant2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -713,8 +770,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &457706704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8693855076861807941, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
+  m_PrefabInstance: {fileID: 258021688}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &469702598
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +1000,7 @@ Transform:
   m_Children:
   - {fileID: 1442980971}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &608092852
 GameObject:
@@ -1020,7 +1088,7 @@ GameObject:
   - component: {fileID: 609276378}
   - component: {fileID: 609276377}
   m_Layer: 0
-  m_Name: Character-Passant 1
+  m_Name: Chara_Passant1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,7 +1126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &653131186
 GameObject:
@@ -1135,57 +1203,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653131186}
   m_CullTransparentMesh: 0
---- !u!1 &661026847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 661026849}
-  - component: {fileID: 661026848}
-  m_Layer: 0
-  m_Name: Character-Boss
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &661026848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661026847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: BOSS
-  nameColor: {r: 0.9622642, g: 0.7480242, b: 0.86789656, a: 1}
-  soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: 239e90a34fd1d3746b4ca63db965aa47, type: 3}
-  portraitsFace: 1
-  setSayDialog: {fileID: 0}
-  description: "Le patron du Mon Amour, le caf\xE9 dans lequel le protagoniste travaille"
---- !u!4 &661026849
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661026847}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &699561241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1248,7 @@ Transform:
   m_Children:
   - {fileID: 1559258940}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &719941148
 GameObject:
@@ -1278,7 +1295,7 @@ Transform:
   m_Children:
   - {fileID: 1652268234}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720724522
 GameObject:
@@ -1325,8 +1342,165 @@ Transform:
   m_Children:
   - {fileID: 1056887589}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &757384851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757384853}
+  - component: {fileID: 757384852}
+  m_Layer: 0
+  m_Name: Chara_Vent2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &757384852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757384851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: "LE VENT QUI S'EST LEV\xC9"
+  nameColor: {r: 0.48794055, g: 0.67706424, b: 0.8018868, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &757384853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757384851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &773971451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773971453}
+  - component: {fileID: 773971452}
+  m_Layer: 0
+  m_Name: Chara_Vent1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &773971452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773971451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: "LE VENT QUI SE L\xC8VE"
+  nameColor: {r: 0.48794055, g: 0.67706424, b: 0.8018868, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &773971453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773971451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &827300290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084216972792936412, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+      propertyPath: m_Name
+      value: Chara_Nina
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
 --- !u!1 &870802003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,7 +1546,7 @@ Transform:
   m_Children:
   - {fileID: 340534873}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905687093
 GameObject:
@@ -1419,58 +1593,7 @@ Transform:
   m_Children:
   - {fileID: 287192965}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &926315980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 926315982}
-  - component: {fileID: 926315981}
-  m_Layer: 0
-  m_Name: Character- Controleur
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &926315981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926315980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: CONTROLEUR
-  nameColor: {r: 0.016464928, g: 0.10067796, b: 0.23584908, a: 1}
-  soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: adb678aecfa23404a80b3facd3b3b737, type: 3}
-  portraitsFace: 2
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &926315982
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926315980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1023545995
 GameObject:
@@ -1517,7 +1640,7 @@ Transform:
   m_Children:
   - {fileID: 1796531029}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1052758885
 GameObject:
@@ -1874,6 +1997,74 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1293083790 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2850279436346843344, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+  m_PrefabInstance: {fileID: 1310438470}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1310438470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2850279436346843345, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_Name
+      value: Chara_Stol
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
 --- !u!1 &1442980970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,6 +2311,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1626594603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1084216972792936413, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
+  m_PrefabInstance: {fileID: 827300290}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1652268233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,8 +2463,76 @@ Transform:
   m_Children:
   - {fileID: 218401405}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1715669062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7785206992038711278, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_Name
+      value: Chara_Controleur
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+--- !u!114 &1744041636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7785206992038711281, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
+  m_PrefabInstance: {fileID: 1715669062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1780139573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2578,6 +2848,19 @@ GameObject:
   - component: {fileID: 1780139625}
   - component: {fileID: 1780139606}
   - component: {fileID: 1780139598}
+  - component: {fileID: 1780139886}
+  - component: {fileID: 1780139652}
+  - component: {fileID: 1780139651}
+  - component: {fileID: 1780139644}
+  - component: {fileID: 1780139627}
+  - component: {fileID: 1780139626}
+  - component: {fileID: 1780139887}
+  - component: {fileID: 1780139888}
+  - component: {fileID: 1780139891}
+  - component: {fileID: 1780139890}
+  - component: {fileID: 1780139889}
+  - component: {fileID: 1780139893}
+  - component: {fileID: 1780139892}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2598,11 +2881,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 163.65147, y: 928.73975}
+  scrollPos: {x: -175.86578, y: 445.76068}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.42525172
+  blockViewHeight: 553
+  zoom: 0.43
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2610,10 +2893,11 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1780139575}
-  selectedCommands:
-  - {fileID: 1780139598}
-  variables: []
+  - {fileID: 1780139608}
+  selectedCommands: []
+  variables:
+  - {fileID: 1780139626}
+  - {fileID: 1780139887}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2638,14 +2922,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 141.96664
+    x: 143.69078
     y: -550.7978
-    width: 108.318405
+    width: 108.139534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1
-  blockName: Title Card
+  blockName: Ecran titre
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2683,9 +2967,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 155.31062
+    x: 156.7392
     y: -765.03845
-    width: 76.33734
+    width: 75.58139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2745,7 +3029,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Nous sommes en 3784. \r\n\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2774,7 +3058,7 @@ MonoBehaviour:
     solaire au sein de colonies reli\xE9es entre elles parTGV (Train \xE0 Gravitation
     Variable) . "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2937,7 +3221,7 @@ MonoBehaviour:
   storyText: "Je suis en route vers Mars depuis la Terre pour rendre visite \xE0
     mes parents. "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2991,7 +3275,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 148.18402
     y: -467.9005
-    width: 98.9122
+    width: 98.837204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3061,9 +3345,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: 'Vous etes au terminus Monsieur, je vous prie de descendre de la navette. '
+  storyText: "\u03DC\u03BF\u03C5\u03C2 \xEA\u03C4\u03B5\u03C2 \u03B1\u03C5\u03C2
+    \u03C4\u03B5\u03C1\u03BC\u03B9\u03BD\u03C5\u03C2 \u03BC\u03BF\u03BD\u03C3\u03B9\u03B5\u03C5\u03C1,
+    \u03C3\u03B5 \u03DD\u03BF\u03C5\u03C2 \u03C0\u03C1\u03B9\u03B5 \u03B4\u03B5 \u03B4\u03B5\u03C3\u03BE\u03B5\u03BD\u03BE\u03B5\u03C2
+    !"
   description: 
-  character: {fileID: 926315981}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3118,7 +3405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 20.041065
     y: -665.22736
-    width: 98.9122
+    width: 98.837204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3224,7 +3511,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hey ! L\xE2chez-moi !"
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3299,9 +3586,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "Monsieur ... monsieur ? \u2026\r\n\u2026 MONSIEUR !! \r\n"
+  storyText: "\u03A0\u1F06\u1FA3\u03DF\u0370\u1F73u\u0371 ... \u03A0\u1F06\u1FA3\u03DF\u0370\u1F73u\u0371
+    ? \u2026\r\n\u2026 \u03A0\u0394\u03DF\u1F37\u0395>U\u03B7 !! \r\n"
   description: 
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3328,7 +3616,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -3358,7 +3646,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: adb678aecfa23404a80b3facd3b3b737, type: 3}
   offset: 0
@@ -3425,7 +3713,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "A\xEFe !"
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3498,7 +3786,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 354.88873
     y: 276.5772
-    width: 83.8623
+    width: 82.558136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3631,7 +3919,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Euh je .. Aaah ! '
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3658,7 +3946,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Bref, c\u2019est le rush, fonce derri\xE8re le comptoir ! "
   description: 
-  character: {fileID: 661026848}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3686,7 +3974,7 @@ MonoBehaviour:
   storyText: "Ah, toi l\xE0-bas, t\u2019es le nouveau ?! Elle ne m\u2019avait pas
     dit qu\u2019elle avait engag\xE9 un terrien \u2026"
   description: 
-  character: {fileID: 661026848}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3713,7 +4001,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 661026848}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 12bdcac0957847b4e92e20109391eeaf, type: 3}
   offset: 0
@@ -3743,7 +4031,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -3828,7 +4116,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Mmmh ..?
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3857,7 +4145,7 @@ MonoBehaviour:
     solaire \xE0 cause d\u2019une sieste mal venue ! Il faut que je me trouve \xE0
     manger !"
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3911,7 +4199,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "... quel enfer\u2026"
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3939,7 +4227,7 @@ MonoBehaviour:
   storyText: "Ca fait des heures que j\u2019erre sans but dans cette ville et je
     ne comprends pas un traitre mot de la langue ..."
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3995,6 +4283,51 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &1780139626
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: Initative
+  value: 0
+--- !u!114 &1780139627
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 403
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 457706704}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1780139628
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4011,7 +4344,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "ME DITES PAS QUE J\u2019AI RATE MON ARRET ?!? "
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4055,7 +4388,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ... La Terre !
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4082,7 +4415,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*grrr*'
   description: 
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4109,7 +4442,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 661026848}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -4139,7 +4472,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -4169,7 +4502,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 661026848}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 12bdcac0957847b4e92e20109391eeaf, type: 3}
   offset: 0
@@ -4199,7 +4532,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -4247,7 +4580,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 926315981}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -4300,9 +4633,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 98
   indentLevel: 0
-  storyText: '"Oxak" ? La terre, vous connaissez ?'
+  storyText: "\"\u039F\u03C5\u03C3\u03C4\" ? La terre, vous connaissez ?"
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4406,6 +4739,36 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1780139644
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 402
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 457706704}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 239e90a34fd1d3746b4ca63db965aa47, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 469702599}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1780139645
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4535,6 +4898,66 @@ MonoBehaviour:
   indentLevel: 0
   targetObject: {fileID: 0}
   sortingLayer: 4
+--- !u!114 &1780139651
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 401
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1626594603}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 20fbd27ef0e53814ebaa4ce1129bc4a3, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 653131187}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139652
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 400
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1626594603}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1780139653
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4576,7 +4999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.6529
     y: -706.1314
-    width: 113.96211
+    width: 110.46512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4648,7 +5071,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -4698,7 +5121,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "MAIS COMMENT JE VAIS FAIRE POUR REPARTIR \nD' ICIIIIIII ?!! "
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4764,7 +5187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 265.41254
     y: -667.3029
-    width: 98.9122
+    width: 94.18605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4838,7 +5261,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Pas la peine d'\xEAtre agressif ! Je sors c'est bon !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4863,9 +5286,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 0
-  storyText: Ouste !
+  storyText: "\u039F\u03C5\u03C3\u03C4 !"
   description: 
-  character: {fileID: 926315981}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4892,7 +5315,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "ME DITES PAS QUE J\u2019AI RATE MON ARRET ?!? "
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4989,9 +5412,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 353
   indentLevel: 0
-  storyText: "Je suis d\xE9sol\xE9 monsieur mais vous devez liberer les lieux !!"
+  storyText: "\u03A3\u03B5 \u03C3\u03C5\u03B9\u03C2 \u03B4\u03B5\u03C3\u03BF\u03BB\u03B5
+    \u03BC\u03BF\u03BD\u03C3\u03B9\u03B5\u03C5\u03C1 \u03BC\u03B1\u03B9\u03C2 \u03DD\u03BF\u03C5\u03C2
+    \u03B4\u03B5\u03DD\u03B5\u03B6 \u03B8\u03C5\u03B9\u03C4\u03C4\u03B5\u03C1 \u03BB\u03B5\u03C2
+    \u03BB\u03B9\u03B5\u03C5\u03C7  !!"
   description: 
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5016,9 +5442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 354
   indentLevel: 0
-  storyText: "\"Nawo\"? D\xE9sol\xE9. Je me suis endormi."
+  storyText: "\"\u039C\u03B1\u03C9\u03BF\"? D\xE9sol\xE9. Je me suis endormi."
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5072,7 +5498,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "D\xE9sol\xE9 Monsieur mais je ne comprends pas votre langue ."
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5099,7 +5525,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -5156,7 +5582,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Disparu \u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5183,7 +5609,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*tap tap* Mon portefeuille !'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5228,7 +5654,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: MAIS ?! ...
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5280,7 +5706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.40573
     y: -389.88275
-    width: 98.9122
+    width: 98.837204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5364,14 +5790,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 97.14549
+    x: 98.86963
     y: -169.54245
-    width: 219.31148
+    width: 166.27907
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 146
-  blockName: "Rencontre avec \u039D\u1F36\u03C0\u1FB3 (Copy)"
+  blockName: Rencontre avec Nina
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5379,6 +5805,7 @@ MonoBehaviour:
   - {fileID: 1780139802}
   - {fileID: 1780139801}
   - {fileID: 1780139800}
+  - {fileID: 1780139886}
   - {fileID: 1780139799}
   - {fileID: 1780139885}
   - {fileID: 1780139798}
@@ -5409,6 +5836,7 @@ MonoBehaviour:
   - {fileID: 1780139773}
   - {fileID: 1780139772}
   - {fileID: 1780139685}
+  - {fileID: 1780139652}
   suppressAllAutoSelections: 0
 --- !u!114 &1780139685
 MonoBehaviour:
@@ -5449,9 +5877,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 518.41614
-    y: -754.768
-    width: 78.21858
+    x: 520.2343
+    y: -747.4953
+    width: 77.906975
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5463,6 +5891,7 @@ MonoBehaviour:
   - {fileID: 1780139771}
   - {fileID: 1780139770}
   - {fileID: 1780139769}
+  - {fileID: 1780139651}
   - {fileID: 1780139768}
   - {fileID: 1780139767}
   - {fileID: 1780139766}
@@ -5470,11 +5899,14 @@ MonoBehaviour:
   - {fileID: 1780139764}
   - {fileID: 1780139763}
   - {fileID: 1780139762}
+  - {fileID: 1780139644}
   - {fileID: 1780139761}
   - {fileID: 1780139760}
   - {fileID: 1780139759}
   - {fileID: 1780139758}
   - {fileID: 1780139757}
+  - {fileID: 1780139627}
+  - {fileID: 1780139888}
   - {fileID: 1780139687}
   suppressAllAutoSelections: 0
 --- !u!114 &1780139687
@@ -5512,24 +5944,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 615.6199
-    y: -630.2921
-    width: 145.94318
+    x: 613.8017
+    y: -628.47394
+    width: 136.04651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 201
-  blockName: Chooix boissons
+  blockName: Choix boissons
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1780139756}
   - {fileID: 1780139755}
   - {fileID: 1780139754}
+  - {fileID: 1780139891}
   - {fileID: 1780139753}
   - {fileID: 1780139752}
   - {fileID: 1780139751}
   - {fileID: 1780139750}
+  - {fileID: 1780139890}
   - {fileID: 1780139749}
   - {fileID: 1780139748}
   - {fileID: 1780139741}
@@ -5578,7 +6012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.85358
     y: -468.5158
-    width: 100.79344
+    width: 98.837204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5625,18 +6059,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 626.3049
+    x: 628.12305
     y: -398.99393
-    width: 142.1807
+    width: 98.837204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 236
-  blockName: "Pr\xE9noms (Copy)"
+  blockName: "Pr\xE9noms"
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1780139728}
+  - {fileID: 1780139889}
   - {fileID: 1780139727}
   - {fileID: 1780139726}
   - {fileID: 1780139725}
@@ -5650,6 +6085,7 @@ MonoBehaviour:
   - {fileID: 1780139717}
   - {fileID: 1780139716}
   - {fileID: 1780139715}
+  - {fileID: 1780139893}
   - {fileID: 1780139714}
   - {fileID: 1780139713}
   - {fileID: 1780139712}
@@ -5695,14 +6131,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 604.8744
+    x: 606.69257
     y: -337.7199
-    width: 194.85538
+    width: 147.67441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 260
-  blockName: "Moment g\xEAnant 1 (Copy)"
+  blockName: "Moment g\xEAnant 1"
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5727,7 +6163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 150.673
     y: -635.39655
-    width: 91.38725
+    width: 91.860466
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5790,7 +6226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.03076
     y: -272.58936
-    width: 153.46814
+    width: 147.67441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5803,6 +6239,7 @@ MonoBehaviour:
   - {fileID: 1780139706}
   - {fileID: 1780139705}
   - {fileID: 1780139704}
+  - {fileID: 1780139892}
   - {fileID: 1780139703}
   - {fileID: 1780139702}
   - {fileID: 1780139698}
@@ -5844,7 +6281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 640.4454
     y: -192.96582
-    width: 123.36831
+    width: 119.76744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5872,7 +6309,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Les secondes passaient, ses yeux '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5900,7 +6337,7 @@ MonoBehaviour:
   storyText: "Quant \xE0 Stol, il n'avait pas encore touch\xE9 \xE0 sa boisson, il
     la regardait d'un air absent."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5929,7 +6366,7 @@ MonoBehaviour:
     fra\xEEche et en vida la moiti\xE9. Suite \xE0 quoi elle leva la main, certainement
     pour en commander directement une deuxi\xE8me."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5957,7 +6394,7 @@ MonoBehaviour:
   storyText: "Ils hoch\xE8rent tous les deux l\xE0 t\xEAte et \u03D2\u1FB1\u1F21r
     s'en alla."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5984,7 +6421,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Enchant\xE9, Stol !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6011,7 +6448,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u0395\u03BD\u03BE\u03B7\u03B1\u03BD\u03C4\xE9."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6038,7 +6475,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u03A3\u03B5 \u03C3\u03C5\u03B9\u03C2 \u03D2\u1FB1\u1F21r... \u03D2\u1FB1\u1F21r."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6065,7 +6502,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "*Rires* Il se pr\xE9sente. Il s'appelle \u03D2\u1FB1\u1F21r."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6119,7 +6556,7 @@ MonoBehaviour:
     St\u03A6l. \u03BE\u03BF\u03BC\u03BC\u03B5\u03BD\u03C4 \u03DD\u03B1 \u03C4\u03C5
     \u03D2\u1FB1\u1F21r."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6146,7 +6583,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Le tavernier le fixait.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6200,7 +6637,7 @@ MonoBehaviour:
     St\u03A6l. \u03BE\u03BF\u03BC\u03BC\u03B5\u03BD\u03C4 \u03DD\u03B1 \u03C4\u03C5
     \u03D2\u1FB1\u1F21r."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6228,7 +6665,7 @@ MonoBehaviour:
   storyText: "Le tavernier venait d'arriver. Il posa son plateau sur la table et
     continua de parler \xE0 Stol."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6256,7 +6693,7 @@ MonoBehaviour:
   storyText: "St\u03A6l  \u03B8\u03C5\u03B5 \u03BB\u03B5 \u03C0\u03C1\u03B5\u03B5\u03C1\u03B5\u03C1
     \u037A \u03C4\u03B9\u03BD\u03B5\u03C2 \u03C0\u03BF\u03C5\u03C1 \u039D\u1F36\u03C0\u1FB3"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6283,7 +6720,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "St\u03A6l"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6310,7 +6747,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Oh, oui ! J'ai oubli\xE9 de me pr\xE9senter ! Je m'appelle Stol !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6337,7 +6774,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Et to\u1F36 ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6364,7 +6801,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Il n'avait pas compris le dernier mot, mais elle avait l'air contente.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6391,7 +6828,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Br\u1FB3v\u03BF ! \u0393\u03BF\u03BF\u03C6\u03B5 !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6418,12 +6855,12 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u039D\u1F36...n\u1FB3\u1FB3"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -6445,7 +6882,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u039Dii\u1F36\u1F36...n\u1FB3aa"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6472,7 +6909,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u039D\u1F36\u1F36\u1F36\u1F36...\u03C0\u1FB3\u1FB3\u1FB3\u1FB3"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6499,7 +6936,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u039Diii...na"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6526,7 +6963,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Non, c'est \u039D\u1F36\u1F36\u1F36\u1F36...\u03C0\u1FB3"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6553,7 +6990,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Je le prononce bien ?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6580,7 +7017,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u039F\u03C5\u03B9, c'est \xE7\u03B1"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6607,7 +7044,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Au fait, Nina, c'est bien ton pr\xE9nom ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6634,7 +7071,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Le serveur acquies\xE7a et s'en alla. Ouf."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6660,7 +7097,7 @@ MonoBehaviour:
   itemId: 272
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 1780139887}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -6838,7 +7275,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 486.36157
     y: -561.9292
-    width: 115.84335
+    width: 110.46512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6889,7 +7326,7 @@ MonoBehaviour:
   itemId: 269
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 1780139626}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -7042,7 +7479,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Brav\u0398 ! Aha"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7067,9 +7504,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 267
   indentLevel: 0
-  storyText: "\u039D\u1F36\u03C0\u1FB3 sourie puis pouffa"
+  storyText: Nina sourie puis pouffa
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7096,7 +7533,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u039E\u03B1p...\xE9 sa\u03BB...ey ..?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7146,9 +7583,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 795.9001
+    x: 794.17596
     y: -463.98526
-    width: 72.57487
+    width: 70.93024
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7196,7 +7633,7 @@ MonoBehaviour:
   itemId: 281
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 1780139887}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -7374,7 +7811,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 779.3426
     y: -563.81024
-    width: 87.62477
+    width: 82.558136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7425,7 +7862,7 @@ MonoBehaviour:
   itemId: 278
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 1780139626}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -7578,7 +8015,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Brav\u0398 !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7603,9 +8040,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 276
   indentLevel: 0
-  storyText: "\u039D\u1F36\u03C0\u1FB3 souri"
+  storyText: Nina souri
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7632,7 +8069,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u03BEn...\u03BF\u03C3..e?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7659,7 +8096,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Euuh.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7686,7 +8123,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Elle ria pendant que l'imposant tavernier s'approchait de la table.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7713,7 +8150,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Attends !
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7741,7 +8178,7 @@ MonoBehaviour:
   storyText: "\u03A1\u03B5\u03BC\xE8\u03BD\u03B5 \u03C4\u03BF\u03B9 \u03B2\u03BF\u03C1\u03B4\u03B5\u03BB
     !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7795,7 +8232,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ahah, \u03BEssay\u03BE. Co\u03FB\u03FBande qu\u03BElque chose."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7822,7 +8259,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Heu. Je ne comprends rien...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7850,7 +8287,7 @@ MonoBehaviour:
   storyText: "Apr\xE8s quelques secondes \u039D\u1F36\u03C0\u1FB3 la r\xE9cup\xE9ra
     et lui tendit."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7878,7 +8315,7 @@ MonoBehaviour:
   storyText: "Le tavernier d\xE9posa un \xE9cran portatif qui affichait un menu puis
     s'en alla."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7905,7 +8342,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u03B4\xE9\u03B3\u03B1\u03B3\u03B5"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7933,7 +8370,7 @@ MonoBehaviour:
   storyText: "\u039C\u03B1\u03B9\u03C2 \u03B4\u03B9\u03C2 \u03BC \u03BF\u03B9 \u03B4\u03BF  
     \u03BD\u03BE\u03B4\u03B6\u03BF \u0393\u0393\u03A3\u03A3\u0395 \u03B6\u03BF \u03B4\u03BF\u03B6,\u03B1"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7960,7 +8397,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u03B4\u03DD\u03BF\u03DD  \u03BF\u03BF\u03B5\u03B8\u03B8\xB7\u03C6\u03C6\u03B4\u03BF..."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7988,7 +8425,7 @@ MonoBehaviour:
   storyText: "\u0399\u03BB \u03DD\u03B1 \u03C0\u03C1\u03B5\u03BD\u03B4\u03B4\u03C1\u03B5
     \u03BB\u03B1 \u03BB\u03B5\u03BA\u03C6\u03BF\u03B5."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8016,7 +8453,7 @@ MonoBehaviour:
   storyText: "\u03BF\u03B4\u03C6\u03B5\u03B9\u03B6\u03C6 \u03C6\u03C6\u03B5\u03C5\u03B2\u03B5\u03C5\u03B8
     \u03C0\u03C0\xB7\u03B1 !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 457706704}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8043,7 +8480,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ah oui, d\xE9sol\xE9. D'accord !"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8070,7 +8507,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "*Hmmf* \u03B4\u03B9\u03C1\u03B5 \xE7\u03B1.. di..re \xE7a"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8097,7 +8534,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Pardon ?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8124,7 +8561,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Oui, on peut \u03B4\u03B9\u03C1\u03B5 \xE7\u03B1."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8151,7 +8588,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Elle m'a l'air parfaite, tu viens souvent ici ?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8178,7 +8615,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "C'est ma \u03A4\u03B1\u03B2\u03BB\u03B5 favorite."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8205,7 +8642,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ici, c'\u1F12\u03DEt bien."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8233,7 +8670,7 @@ MonoBehaviour:
   storyText: "Une sorte de saloon pour \xEAtre plus pr\xE9cis, comme dans les films
     de l'ancienne \xE9poque."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8261,7 +8698,7 @@ MonoBehaviour:
   storyText: "Le myst\xE9rieux \"\u03B2\u1F51\u1FE1\u03B5\u03C4\u03C4\" vers lequel
     elle l'a emmen\xE9e \xE9tait un bar."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8289,7 +8726,7 @@ MonoBehaviour:
   storyText: "Une fois rentr\xE9es dans le b\xE2timent blanc, ses inqui\xE9tudes
     se dissip\xE8rent."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8341,7 +8778,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Elle se leva et lui tendit la main.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8368,7 +8805,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Tu as d\xE9j\xE0 dormi. Viens avec moi dans \u03B2\u1F51\u1FE1\u03B5\u03C4\u03C4."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8395,7 +8832,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "et haussa les \xE9paules."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8422,7 +8859,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Et maintenant...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8449,7 +8886,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Quand il eut fini son histoire, il la regarda dans les yeux
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8478,7 +8915,7 @@ MonoBehaviour:
     Son si\xE8ge inconfortable, son sommeil ininterrompu, sa rencontre avec le videur
     de navettes..."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8505,7 +8942,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Oui voil\xE0 ! Moi. dans le spacio transporteur, j'ai dormi."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8530,9 +8967,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 343
   indentLevel: 0
-  storyText: Spacio transporteur ?
+  storyText: "Spaci\u0275 tr\u0251\u014B\u015Dporteur ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8559,7 +8996,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Oui, *wouuurm* dans l'espace
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8586,7 +9023,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u03B7\u03B1ve\u03C4\u03C4e ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8615,7 +9052,7 @@ MonoBehaviour:
     sableuse ? Et cette boue au sol ? Et pourquoi tout le monde parle une langue
     aussi \xE9trange ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8643,7 +9080,7 @@ MonoBehaviour:
   storyText: "J'ai embarqu\xE9 dans une navette pour venir voir mes parents. Mais
     je me suis endormi et je ne me suis r\xE9veill\xE9 qu'au terminus."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8670,7 +9107,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Pourquo\u1F32, tu \u03C0'\u03ADst pas sur T\u03ADrr\u03AD ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8697,12 +9134,12 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "...un \u03C1\u03ADu"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -8724,7 +9161,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "D\u1F12 r\u1F36\u1F12n. \u0398\u03C5\u03B9... on peut."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8751,7 +9188,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Merci beaucoup. Tu parles le terrien ?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8778,7 +9215,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Merci.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8806,7 +9243,7 @@ MonoBehaviour:
   storyText: "Apr\xE8s quelques secondes assis, il se sentait d\xE9j\xE0 un peu calm\xE9,
     calm\xE9."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8852,7 +9289,7 @@ MonoBehaviour:
   storyText: "Elle le conduit jusqu'\xE0 un petit banc, contre une maison \xE0 quelques
     m\xE8tres."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8879,7 +9316,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: L'inconnue ria quelques secondes puis le prit par la main.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8933,7 +9370,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Il le prit et se frotta vigoureusement les yeux avec.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8961,7 +9398,7 @@ MonoBehaviour:
   storyText: "Ses yeux rouges avaient parl\xE9 \xE0 sa place, elle lui tendit un
     mouchoir en tissu brod\xE9."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9015,7 +9452,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u1F9E\u1F34\u1F92\u0388.... \u1F65...\u1FEA\u1F3A\u1F32\u1F48 ??"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9042,7 +9479,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u1F9E\u1F34\u1F92\u0388 \u1F65\u1FEA\u1F3A\u1F32\u1F48 ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1626594603}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9069,7 +9506,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Cette fille s'\xE9tait arret\xE9 pour lui venir en aide."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9096,7 +9533,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Quelqu'un l'avait finalement pris en piti\xE9."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9123,7 +9560,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Il releva doucement les yeux.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9150,7 +9587,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Une main se posa sur son \xE9paule."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9177,7 +9614,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Il grattait maladroitement ses yeux rougis, ce qui le soulageait temporairement.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9204,7 +9641,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Sans s'en rendre compte, il s'\xE9tait m\xEAme accroupi."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9231,7 +9668,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Stol \xE9tait au milieu de la rue, tout sableux et souffrant."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9276,7 +9713,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*woush...*'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 757384852}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9303,7 +9740,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Heursement, l'intemp\xE9rie ne semblait pas durer, le vent se calmait."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9331,7 +9768,7 @@ MonoBehaviour:
   storyText: "Le sable dans la bouche \xE9tait d\xE9sagr\xE9able, mais celui dans
     les yeux est pire."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9358,7 +9795,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Arg, mes... yeux...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9385,7 +9822,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Blaaarrg, dans ma *ptff ptff* bouche. Saloperie. de.. sable.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9429,7 +9866,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*WOUUUUUUSH*'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 757384852}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9454,7 +9891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 0
-  storyText: "Oh. non. D\xE9j\xE0 que je n'y voyais rien... Le sable, c'est pire."
+  storyText: "Oh. non. D\xE9j\xE0 que je n'y voyais rien... Avec ce sable port\xE9
+    par le vent, c'est pire."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9483,7 +9921,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '*Wouuuush*'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 773971452}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9601,7 +10039,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780139573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
@@ -9629,7 +10067,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780139573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
@@ -9657,7 +10095,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780139573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
@@ -9802,10 +10240,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: "Il se mit a observer la rang\xE9e de b\xE2timents blancs cass\xE9s
-    tout le long de la rue."
+  storyText: "Il se mit a observer la rang\xE9e de b\xE2timents tout le long de la
+    rue."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9833,7 +10271,7 @@ MonoBehaviour:
   storyText: "Heureusement qu'il n'y avait presque personne dehors. \xC0 Newer-York,
     il se serait fait bousculer pour avoir march\xE9 aussi lentement."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9861,7 +10299,7 @@ MonoBehaviour:
   storyText: "Il \xE9tait maintenant rapide, autant que quelqu'un marchant en faible
     pesanteur dans la boue puisse l'\xEAtre."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9889,7 +10327,7 @@ MonoBehaviour:
   storyText: "Apr\xE8s quelques secondes d'adaptation, ses pas sont devenus plus
     assur\xE9s."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9918,7 +10356,7 @@ MonoBehaviour:
     moindre que sur terre. Ses pieds s'enfon\xE7aient, mais mettaient un certain
     temps \xE0 trouver le fond."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9946,7 +10384,7 @@ MonoBehaviour:
   storyText: "Ce qui semblait \xEAtre une rue principale \xE9tait piteux \xE9tat.
     Avait-elle toujours \xE9t\xE9 aussi boueuse ?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9973,7 +10411,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xC0 peine avait-il foul\xE9 le sol que sa botte s'enfon\xE7ait doucement."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10000,7 +10438,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Le premier pas fut surprenant.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10052,7 +10490,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -48.17211
     y: -390.85208
-    width: 181.6867
+    width: 168.60464
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10142,7 +10580,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 155.06401
     y: -287.26047
-    width: 91.38725
+    width: 89.53488
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10458,7 +10896,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Mais... revenez ! Je ne veux rien vous vendre !
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10513,7 +10951,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: La terre ! Aidez-moi.
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10610,7 +11048,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Bon... Je fais quoi maintenant ?
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10637,7 +11075,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -10786,8 +11224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 222
   indentLevel: 0
-  storyText: "Le seul mot que j'ai retenu c'est \"Oxak\", mais je l'ai mal prononc\xE9
-    et je ne sais pas ce que \xE7a veut dire."
+  storyText: "Le seul mot que j'ai retenu c'est \"\u039F\u03C5\u03C3\u03C4\", mais
+    je l'ai mal prononc\xE9 et je ne sais pas ce que \xE7a veut dire."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10872,7 +11310,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 609276377}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e564639a84e9864449f10ba5904cbaf2, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 653131187}
   toPosition: {fileID: 608092853}
@@ -10902,7 +11340,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 609276377}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e564639a84e9864449f10ba5904cbaf2, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 653131187}
@@ -10930,7 +11368,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -10960,7 +11398,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
   offset: 0
@@ -10991,7 +11429,7 @@ MonoBehaviour:
   storyText: "Si loin du reste de l'humanit\xE9 que la culture et la langue d'ici
     sont on ne peut plus \xE9loign\xE9es de celles de la Terre..."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11018,7 +11456,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -11049,7 +11487,7 @@ MonoBehaviour:
   storyText: "Quelle id\xE9e de s\u2019expatrier aussi loin, le voyage est tellemeeeeent
     loooong\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11076,7 +11514,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: JE SUIS AU TERMINUS DE LA LIGNE !!!
   description: 
-  character: {fileID: 2084419411}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11103,7 +11541,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -11133,7 +11571,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Callisto la derni\xE8re colonie humaine ..."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 8406450639119852203}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11217,7 +11655,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780139573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1691834624}
   m_Name: 
@@ -11242,7 +11680,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -11272,7 +11710,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 2084419411}
+  character: {fileID: 1293083790}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -11302,7 +11740,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 926315981}
+  character: {fileID: 1744041636}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -11332,7 +11770,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Euh.. Je ...ARGh !
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1293083790}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11343,6 +11781,231 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1780139886
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 399
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1626594603}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 20fbd27ef0e53814ebaa4ce1129bc4a3, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139887
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: Boisson
+  value: 
+--- !u!114 &1780139888
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 404
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1626594603}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139889
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 407
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 457706704}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139890
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 406
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 457706704}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 239e90a34fd1d3746b4ca63db965aa47, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 469702599}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139891
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 405
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1626594603}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 20fbd27ef0e53814ebaa4ce1129bc4a3, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 653131187}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 409
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 457706704}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1780139893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780139573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 408
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 457706704}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 239e90a34fd1d3746b4ca63db965aa47, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 469702599}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1796531028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11470,7 +12133,7 @@ Transform:
   m_Children:
   - {fileID: 1488981029}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940015956
 GameObject:
@@ -11517,7 +12180,7 @@ Transform:
   m_Children:
   - {fileID: 1200340234}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019585117
 GameObject:
@@ -11564,58 +12227,7 @@ Transform:
   m_Children:
   - {fileID: 339117523}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2084419410
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2084419412}
-  - component: {fileID: 2084419411}
-  m_Layer: 0
-  m_Name: Main Character
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2084419411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084419410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: STOL
-  nameColor: {r: 0.6792453, g: 0.48191816, b: 0.041011, a: 1}
-  soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 21300000, guid: 71637dcc073172345952108215f0aa13, type: 3}
-  portraitsFace: 1
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &2084419412
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084419410}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2110639214
 GameObject:
@@ -11661,3 +12273,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6566909323092228426
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3426095195752815584, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_Name
+      value: Chara_Narrateur
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+--- !u!114 &8406450639119852203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3426095195752815585, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
+  m_PrefabInstance: {fileID: 6566909323092228426}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
