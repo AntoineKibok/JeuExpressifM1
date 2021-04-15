@@ -59,9 +59,18 @@ TagManager:
   - name: 6
     uniqueID: 523092041
     locked: 0
+  - name: 7
+    uniqueID: 3482483271
+    locked: 0
   - name: 8
     uniqueID: 1787073995
     locked: 0
   - name: 9
     uniqueID: 1593479109
+    locked: 0
+  - name: 10
+    uniqueID: 581750933
+    locked: 0
+  - name: 11
+    uniqueID: 896438405
     locked: 0
