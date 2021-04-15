@@ -664,9 +664,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 240.94504
-    y: -986.65656
-    width: 127.419365
+    x: 237.71924
+    y: -983.4307
+    width: 121.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -696,7 +696,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.404877
     y: -994.46716
-    width: 114.516136
+    width: 107.14286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.06015
     y: -1037.0854
-    width: 88.70969
+    width: 84.69388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -824,7 +824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 315
   indentLevel: 0
-  storyText: "<color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111 </color> ? Qu'est-ce
+  storyText: "{color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111{/color} ? Qu'est-ce
     que c'est ? ..."
   description: 
   character: {fileID: 0}
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  storyText: au revoir,
+  storyText: 'au revoir, '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: Bonjour,
+  storyText: 'Bonjour, '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: merci,
+  storyText: 'merci, '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1244,7 +1244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 143.90233
     y: -934.89307
-    width: 82.25807
+    width: 82.65306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1335,7 +1335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 129.1792
     y: -1109.8292
-    width: 104.838715
+    width: 101.02041
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1666,8 +1666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  storyText: "Non, Non ! Ton   <color=red>\u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
-    </color> !"
+  storyText: "Non, Non ! Ton {color=red}\u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
+    {/color} !"
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -1794,7 +1794,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37.553745
     y: -650.85345
-    width: 79.03226
+    width: 80.61224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1826,7 +1826,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -24.239517
     y: -300.88577
-    width: 88.70969
+    width: 86.734695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1855,7 +1855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 124.895615
     y: -609.08026
-    width: 108.06452
+    width: 107.14286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1891,7 +1891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.55316
     y: -701.4857
-    width: 88.70969
+    width: 86.734695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1945,8 +1945,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: "\u1FD8\u1FD7 \u0166\u0167\u1F70\u01BF\u01AD\u01E9\u1F79 <color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
-    </color> \u1F72 \u1FF8\u1FD6\u1FD9\u1F73\u1F72 \u20A2\u1EFF . \u1FEA\u1F13r \u1FB9\u1F92\u1F7D\u1F81\u1F76\u1F76
+  storyText: "\u1FD8\u1FD7 \u0166\u0167\u1F70\u01BF\u01AD\u01E9\u1F79 {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+    {/color} \u1F72 \u1FF8\u1FD6\u1FD9\u1F73\u1F72 \u20A2\u1EFF . \u1FEA\u1F13r \u1FB9\u1F92\u1F7D\u1F81\u1F76\u1F76
     \u1F3D\u1F32 t\u1F79\u1F70 !"
   description: 
   character: {fileID: 783967734}
@@ -2030,7 +2030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.57898
     y: -761.3339
-    width: 91.935486
+    width: 90.81633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2285,7 +2285,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 243.77902
     y: -814.90656
-    width: 79.03226
+    width: 76.53061
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2318,7 +2318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 43.494553
     y: -820.84894
-    width: 75.80646
+    width: 74.4898
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2403,7 +2403,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 142.6959
     y: -868.95996
-    width: 91.935486
+    width: 86.734695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2812,8 +2812,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 131.30756
-    y: -448.30072
-    width: 82.25807
+    y: -450.34152
+    width: 82.65306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2854,7 +2854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 239.31763
     y: -480.56888
-    width: 82.25807
+    width: 80.61224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2889,7 +2889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 14.104904
     y: -479.9672
-    width: 91.935486
+    width: 92.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2922,7 +2922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.62393
     y: -550.4798
-    width: 88.70969
+    width: 86.734695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2949,8 +2949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: "\"Elle dit il y a \u2026 <color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
-    </color>.. dans le quartier\" "
+  storyText: "\"Elle dit il y a \u2026 {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+    {/color}.. dans le quartier\" "
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -3135,7 +3135,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.83307
     y: -365.76477
-    width: 88.70969
+    width: 84.69388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3393,9 +3393,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 204
   indentLevel: 0
-  storyText: "On va attraper le <color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
-    </color>  nous tous les deux. Retrouver ton <color=red> \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
-    </color> !\n\n"
+  storyText: "On va attraper le {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+    {/color>}  nous tous les deux. Retrouver ton {color=red} \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
+    {/color} !\n\n"
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -3421,11 +3421,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 515.89685, y: 1565.6302}
+  scrollPos: {x: 169.8797, y: 445.7153}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 522
-  zoom: 0.30999997
+  zoom: 0.48999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3433,7 +3433,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 504165054}
+  - {fileID: 504165149}
   selectedCommands: []
   variables: []
   description: 
@@ -3666,8 +3666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: "<color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111 </color>,<color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
-    </color> ..."
+  storyText: "{color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111 {/color},{color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+    {/color} ..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3694,7 +3694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 193
   indentLevel: 0
-  storyText: "<color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111 </color>, <color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+  storyText: "{color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111 {/color}, {color=red}>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
     </color> ..."
   description: 
   character: {fileID: 0}
@@ -3749,8 +3749,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 191
   indentLevel: 0
-  storyText: "Tu ne veux pas attrapper <color=red>\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
-    </color> ?"
+  storyText: "Tu ne veux pas attrapper {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+    {/color} ?"
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -3806,7 +3806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 368.11115
     y: -39.46895
-    width: 75.80646
+    width: 74.4898
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3841,7 +3841,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 379.04868
     y: 21.468536
-    width: 69.35484
+    width: 70.408165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3871,7 +3871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 369.6737
     y: 82.406044
-    width: 91.935486
+    width: 88.77551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4032,7 +4032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0.04070282
     y: -39.740692
-    width: 85.48387
+    width: 86.734695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4063,7 +4063,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 235.29874
     y: -83.21883
-    width: 101.61291
+    width: 94.897964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4163,7 +4163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 125.861206
     y: -165.90637
-    width: 88.70969
+    width: 84.69388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4288,7 +4288,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.079285
     y: -238.40137
-    width: 91.935486
+    width: 92.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4451,7 +4451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 242.50021
     y: -301.28052
-    width: 114.516136
+    width: 115.30612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4590,7 +4590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132.47397
     y: 135.29889
-    width: 66.129036
+    width: 64.28571
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6170,8 +6170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 294
   indentLevel: 0
-  storyText: "Stol! Tu as plus \u2026<color=red> \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
-    </color> ...  "
+  storyText: "Stol! Tu as plus \u2026{color=red} \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
+    {/color} ...  "
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -6202,7 +6202,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 783967734}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 53ec169c6aaac0c49ae22d9f96f41ba1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
