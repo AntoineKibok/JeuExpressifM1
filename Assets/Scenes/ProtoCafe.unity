@@ -1792,7 +1792,7 @@ Transform:
   m_Children:
   - {fileID: 1881806742}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &20340537
 GameObject:
@@ -2492,6 +2492,10 @@ GameObject:
   - component: {fileID: 236530538}
   - component: {fileID: 236530540}
   - component: {fileID: 236530539}
+  - component: {fileID: 236530544}
+  - component: {fileID: 236530543}
+  - component: {fileID: 236530542}
+  - component: {fileID: 236530541}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3468,7 +3472,8 @@ MonoBehaviour:
   blockName: Catastrophe
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 236530541}
   suppressAllAutoSelections: 0
 --- !u!114 &236530356
 MonoBehaviour:
@@ -5087,7 +5092,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 420.98767
-    y: 467.64832
+    y: 471.64832
     width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5113,8 +5118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 136.98767
-    y: 463.64832
+    x: 140.98767
+    y: 459.64832
     width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5437,8 +5442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 40.987793
-    y: 463.64832
+    x: 60.987793
+    y: 459.64832
     width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5896,8 +5901,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -49.63611
-    y: 465.37708
+    x: -33.63611
+    y: 461.37708
     width: 82
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6255,7 +6260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 43.657104
+    x: 59.657104
     y: 394.22308
     width: 82
     height: 40
@@ -7872,7 +7877,8 @@ MonoBehaviour:
   blockName: Parfait
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 236530544}
   suppressAllAutoSelections: 0
 --- !u!114 &236530527
 MonoBehaviour:
@@ -7898,7 +7904,8 @@ MonoBehaviour:
   blockName: 2sur3
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 236530543}
   suppressAllAutoSelections: 0
 --- !u!114 &236530528
 MonoBehaviour:
@@ -7924,7 +7931,8 @@ MonoBehaviour:
   blockName: 1sur3
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 236530542}
   suppressAllAutoSelections: 0
 --- !u!114 &236530529
 MonoBehaviour:
@@ -8101,7 +8109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1089.935, y: 371.26294}
+  scrollPos: {x: 957.93506, y: 187.26294}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -8113,7 +8121,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 236530526}
+  - {fileID: 236530422}
   selectedCommands: []
   variables: []
   description: 
@@ -8138,7 +8146,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &236530537
 MonoBehaviour:
@@ -8163,7 +8171,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &236530538
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8193,7 +8201,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &236530539
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8223,7 +8231,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &236530540
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8246,6 +8254,116 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &236530541
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236530309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 231
+  indentLevel: 0
+  storyText: 'Le client est furieux, c''est un fiasco !
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &236530542
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236530309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 0
+  storyText: "Le client a l'air m\xE9content..."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &236530543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236530309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 229
+  indentLevel: 0
+  storyText: Le client a l'air moyenement satisfait.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &236530544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236530309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 228
+  indentLevel: 0
+  storyText: "Le client a l'air tr\xE8s satisfait !"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &268776467
 GameObject:
   m_ObjectHideFlags: 1
@@ -8335,7 +8453,7 @@ Transform:
   m_Children:
   - {fileID: 131275377}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &299822562
 PrefabInstance:
@@ -8374,7 +8492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8693855076861807938, guid: ec87e38e51b03684fac9251cafe0ceea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8514,7 +8632,7 @@ Transform:
   m_Children:
   - {fileID: 212373015}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508285206
 GameObject:
@@ -8833,7 +8951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1084216972792936410, guid: 630a41598ef91c64cbb42bc8642427eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8901,7 +9019,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691977259
 GameObject:
@@ -9086,7 +9204,7 @@ MonoBehaviour:
   nameColor: {r: 0.007831959, g: 0.18867922, b: 0.008702499, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 914a4e0f06646ad47a3785ddec7e82cf, type: 3}
+  - {fileID: 21300000, guid: a87e96e8597677d48b511e5d4b360686, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
@@ -9102,7 +9220,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698216626
 GameObject:
@@ -13909,7 +14027,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1430684299
 PrefabInstance:
@@ -13952,7 +14070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 2850279436346843351, guid: 8d3c65adac0ee63409abeb2aff5cef44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14060,7 +14178,7 @@ Transform:
   m_Children:
   - {fileID: 2048540674}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617936370
 GameObject:
@@ -14107,7 +14225,7 @@ Transform:
   m_Children:
   - {fileID: 1007750140}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1649622704
 GameObject:
@@ -14435,7 +14553,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048540672
 GameObject:
@@ -14525,7 +14643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 7785206992038711280, guid: 3b9bef918e6960744b551e80cdcdc133, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14582,7 +14700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3426095195752815590, guid: 69ee61c11311e404b91a320e6f708fcb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
