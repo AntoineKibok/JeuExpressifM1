@@ -35,7 +35,6 @@ public class PauseMenuManager : MonoBehaviour
 
     public void GoToMainMenu()
     {
-        Destroy(GameObject.Find("FungusManager"));
         SceneManager.LoadScene("Menu");
     }
 
