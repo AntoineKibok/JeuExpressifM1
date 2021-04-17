@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
-public class MenusManager : MonoBehaviour
+public class MainMenuManager : MonoBehaviour
 {
     public GameObject back, main, levels, credits;
 
@@ -48,9 +46,4 @@ public class MenusManager : MonoBehaviour
         SceneManager.LoadScene("Scenes/" + name);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
