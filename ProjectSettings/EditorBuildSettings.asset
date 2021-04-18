@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ProtoCafe.unity
     guid: 25f3aa37c74395a408e3aa368ef34749
+  - enabled: 1
+    path: Assets/Scenes/CreditsFin.unity
+    guid: 7c08e048aa4de254a9b496e7ed9d0043
   m_configObjects: {}

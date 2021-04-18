@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Fungus;
 
 public class PauseMenuManager : MonoBehaviour
 {
     public GameObject toggleMenu;
     public GameObject menu;
+    public Flowchart flowchart;
 
     void Start()
     {
@@ -15,31 +17,34 @@ public class PauseMenuManager : MonoBehaviour
     }
     public void Pause()
     {
+        Time.timeScale = 0;
         toggleMenu.SetActive(false);
         menu.SetActive(true);
-        Time.timeScale = 0;
     }
 
     public void UnPause()
     {
+        Time.timeScale = 1;
         toggleMenu.SetActive(true);
         menu.SetActive(false);
-        Time.timeScale = 1;
     }
 
     public void Restart()
     {
         UnPause();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        flowchart.ExecuteBlock("Relancer");
+
     }
 
     public void GoToMainMenu()
     {
-        SceneManager.LoadScene("Menu");
+        UnPause();
+        flowchart.ExecuteBlock("Retour menu");
     }
 
     public void Quit()
     {
+        UnPause();
         Application.Quit();
     }
 
