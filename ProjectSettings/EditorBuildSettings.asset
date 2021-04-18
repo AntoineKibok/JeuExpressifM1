@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Semaine1.unity
     guid: af999ea190e375448be604ba2d34b1ca
+  - enabled: 1
+    path: Assets/Scenes/Semaine2.unity
+    guid: 8ef3af1888c7570498db8af74e98f44c
+  - enabled: 1
+    path: Assets/Scenes/Semaine3.unity
+    guid: ef91cff12a322ec42a50ad6faf0a7e1f
+  - enabled: 1
+    path: Assets/Scenes/ProtoCafe.unity
+    guid: 25f3aa37c74395a408e3aa368ef34749
   m_configObjects: {}
