@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de9678138ccba454b862b5169bb59f64
+guid: e9caf02b0652af4448a05cbc4d7cbe5a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Alien
+  - Arial
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
