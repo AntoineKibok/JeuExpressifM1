@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuManager : MonoBehaviour
 {
     public GameObject back, main, levels, credits;
+    public AudioSource sonClic;
 
     // Start is called before the first frame update
     void Start()
@@ -16,12 +17,13 @@ public class MainMenuManager : MonoBehaviour
 
     public void Quit()
     {
-        Debug.Log("Quit");
+        sonClic.Play();
         Application.Quit();
     }
 
     public void goMain()
     {
+        sonClic.Play();
         levels.SetActive(false);
         credits.SetActive(false);
         main.SetActive(true);
@@ -29,6 +31,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void goCredit()
     {
+        sonClic.Play();
         main.SetActive(false);
         levels.SetActive(false);
         credits.SetActive(true);
@@ -36,6 +39,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void goLevels()
     {
+        sonClic.Play();
         main.SetActive(false);
         credits.SetActive(false);
         levels.SetActive(true);
@@ -43,6 +47,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void chooseChapter(string name)
     {
+        sonClic.Play();
         SceneManager.LoadScene("Scenes/" + name);
     }
 

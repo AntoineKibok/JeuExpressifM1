@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: CONTROLEUR
-  nameColor: {r: 0.016464928, g: 0.10067796, b: 0.23584908, a: 1}
+  nameColor: {r: 0.08401567, g: 0.16960788, b: 0.3018868, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: adb678aecfa23404a80b3facd3b3b737, type: 3}

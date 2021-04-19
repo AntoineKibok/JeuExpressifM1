@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Narrateur
-  nameColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+  nameColor: {r: 0.14150941, g: 0.13149695, b: 0.13149695, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 1

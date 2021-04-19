@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: NINA
-  nameColor: {r: 0.23561765, g: 0.5754717, b: 0.33332932, a: 1}
+  nameColor: {r: 0.17399432, g: 0.4339623, b: 0.24869777, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 20fbd27ef0e53814ebaa4ce1129bc4a3, type: 3}
