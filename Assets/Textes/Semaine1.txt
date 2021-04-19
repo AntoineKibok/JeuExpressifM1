@@ -1,0 +1,379 @@
+#SAY.Flowchart.75.
+Haaaaaaaan…
+
+#SAY.Flowchart.90.
+Une semaine que je fais ce boulot.
+
+#SAY.Flowchart.89.
+C’est passé si vite, j’ai l’impression de n’avoir fait qu’une très longue et éreintante journée.
+
+#SAY.Flowchart.88.
+C’est toujours excessivement compliqué de communiquer dans cette langue étrange, mais je commence à retenir quelques usages courants :
+
+#SAY.Flowchart.87.
+Bonjour,
+
+#SAY.Flowchart.91.
+au revoir,
+
+#SAY.Flowchart.86.
+merci,
+
+#SAY.Flowchart.85.
+lait d’amande biologique localement sourcé…
+
+#SAY.Flowchart.84.BOSS
+"ᾜᾱ ᾥόᾓ ᾀώ ὴέὺ .Έῑ ᾧίἾὅ Ὂὓή ήόῆ !  ὮᾂᾠῥᾰῸῖῙέὲ !"
+
+#SAY.Flowchart.109.
+Il me tend une petite liasse de billets aux couleurs étranges. Au bout d'une semaine, je commence à avoir une bonne idée de ce qu'ils valent.
+
+#SAY.Flowchart.83.STOL
+"Ah ! Euh… merci ! "
+
+#SAY.Flowchart.82.
+J’ai eu la chance de tomber sur lui. Il est étonnamment compréhensif malgré le fait qu'on ne parle pas la même langue.
+
+#SAY.Flowchart.81.
+Je l’appelle Boss, je crois qu’il m’a donné son nom, mais je ne suis pas sûr de le prononcer correctement alors j’évite.
+
+#SAY.Flowchart.80.
+Boss me paye à la semaine et me laisse dormir au café après la fermeture.
+
+#SAY.Flowchart.266.
+Il a très vite compris à ma mine et mon air perdu que je n’avais nulle part où aller. Ça fait chaud au cœur qu’il me fasse confiance à ce point alors que je suis un parfait inconnu ne parlant pas sa langue…
+
+#SAY.Flowchart.79.
+L’autre bonne surprise s’appelle Nina, on peut considérer qu'elle m'a littéralement sorti de la rue. C'est maintenant ma collègue. Elle travaille aussi ici. 
+
+#SAY.Flowchart.267.
+Elle est …disons très énergique, certains diraient fatiguante mais il se trouve qu’elle comprend et parle un peu (un TOUT PETIT peu) le Terrien.
+
+#SAY.Flowchart.78.
+Ce n’est pas grand-chose, mais après une semaine sans entendre une seule parole compréhensible, un simple « coῳῳeῃt ᾀ₽₽eỻἕ-tu toị ? » devient un vrai moment de joie.
+
+#SAY.Flowchart.101.
+Tiens, la voilà d’ailleurs.
+
+#SAY.Flowchart.100.NINA
+"ῼῳ ỿị Ꝛῐᾘᾬῇ Ỽ ῇᾹῪῧὂἣ  ƿƭ  ὂἱἕỻự Ǥȥȿ ?  "
+
+#SAY.Flowchart.268.STOL
+"... "
+
+#SAY.Flowchart.269.NINA
+"ΌἩ ! ƿᾀrdoῇ . Tu … ẞὂịre dehὂrȿ ᾀvec ⴍoi ?"
+
+#MENU.Flowchart.104
+Elle m’invite au bar
+
+#MENU.Flowchart.106
+Elle me drague
+
+#SAY.Flowchart.110.
+Après une semaine comme celle-ci, je prendrais bien un verre en effet.
+
+#SAY.Flowchart.114.STOL
+« Avec plaisir ! ῼὓị  !
+
+#SAY.Flowchart.115.
+Je ne sais pas quoi répondre à ça !
+
+#SAY.Flowchart.118.
+Oh non, je rougis là non ? Je rougis clairement !
+
+#SAY.Flowchart.119.
+Elle sourit légèrement et me fait un signe de la tête avant de se diriger vers la sortie.
+
+#SAY.Flowchart.279.
+Nous entrons dans un petit bar sombre et chaleureux.
+
+#SAY.Flowchart.281.
+Je me retrouve instantanément plongé dans une fumée à l'odeur étrange, du jazz dans les oreilles.
+
+#SAY.Flowchart.280.Narrateur
+Au comptoir, la barmaid salue Nina avec un grand sourire.
+
+#SAY.Flowchart.126.BARMAID
+Nina ! Ὺῧ ὢὖỼđ ῼῳῘῗῃώᾀ, ŦŧƿƭǩǷǤȥȿ ἣἓὢὖ ῼ ?
+
+#SAY.Flowchart.131.
+Elle se tourne vers moi.
+
+#SAY.Flowchart.130.NINA
+₢’₪ỿị ᾹῪῧᾀέὓ ἣἓ Ǥȥȿ ?
+
+#MENU.Flowchart.134
+Elle me demande mon nom.
+
+#MENU.Flowchart.135
+Elle me demande ce que je veux boire.
+
+#SAY.Flowchart.146.
+Je crois qu'elle me demande mon nom.
+
+#SAY.Flowchart.147.STOL
+Euh... Ὺἓ Stol !
+
+#SAY.Flowchart.148.
+La barmaid sourit
+
+#SAY.Flowchart.149.BARMAID
+ẞῐἓἣvἓἣὓ ȿὓr Callisto, Stol !
+
+#SAY.Flowchart.138.
+Je pointe du doigt une bouteille de ce qui ressemble à une bière.
+
+#SAY.Flowchart.145.STOL
+Je veux ça !
+
+#SAY.Flowchart.144.
+La barmaid se renfrogne soudainement, mais me tend la bouteille que j’ai demandée puis se tourne à nouveau vers Nina.
+
+#SAY.Flowchart.143.
+... J'ai dit une bêtise, je crois ...
+
+#SAY.Flowchart.151.
+Elle se tourne vers Nina.
+
+#SAY.Flowchart.155.BARMAID
+Ŧῢ ᾀ έὓὂἱἕỻự Ῐῗ ῸῖῙέὲ ₪ὶῇᾁ ?
+
+#SAY.Flowchart.154.BARMAID
+Ῐῗ Ŧŧὰƿƭǩό {color=red}ẞrἲῘῗᾹᾒđ {/color} ὲ ῸῖῙέὲ ₢ỿ . Ὺἓr Ᾱᾒώᾁὶὶ Ἵἲ tόὰ !
+
+#SAY.Flowchart.153.NINA
+!!
+
+#SAY.Flowchart.294.NINA
+Stol! Tu as plus …{color=red} ƿᾂᾠῥᾰỻựἕ {/color} ...
+
+#SAY.Flowchart.270.NINA
+chose argent, vrai ?
+
+#MENU.Flowchart.162
+Elle me demande de payer.
+
+#MENU.Flowchart.163
+Elle me parle de mon portefeuille.
+
+#SAY.Flowchart.170.
+Ah ...
+
+#SAY.Flowchart.174.STOL
+"ῼὓị !"
+
+#SAY.Flowchart.173.STOL
+"Mon... portefeuille... ?"
+
+#SAY.Flowchart.172.STOL
+"Je ne l'ai plus."
+
+#SAY.Flowchart.171.
+Nina pointe la barmaid du doigt.
+
+#SAY.Flowchart.177.NINA
+"Elle dit il y a … {color=red}ẞrἲῘῗᾹᾒđ {/color}.. dans le quartier"
+
+#SAY.Flowchart.315.
+{color=red}ẞrἲῘῗᾹᾒđ{/color} ? Qu'est-ce que c'est ? ...
+
+#SAY.Flowchart.221.
+Au moment où je fais mine de me lever, prêt à partir à l’aventure, je remarque la fatigue sur le visage de Nina
+
+#SAY.Flowchart.222.
+Hem, on s'y mettra plutôt le week-end prochain ...
+
+#SAY.Flowchart.164.
+Elle est gonflée !
+
+#SAY.Flowchart.168.
+Mais c’est peut-être une question de culture…
+
+#SAY.Flowchart.167.
+Au moment où je sors mes billets, elle m’arrête :
+
+#SAY.Flowchart.166.NINA
+Non, non ! Ton {color=red}ƿᾂᾠῥᾰỻựἕ {/color} !
+
+#MENU.Flowchart.169
+Elle me parle de mon portefeuille.
+
+#MENU.Flowchart.183
+La police ?
+
+#MENU.Flowchart.185
+Un vendeur de portefeuilles ?
+
+#MENU.Flowchart.184
+Un voleur ?
+
+#SAY.Flowchart.206.
+Un vendeur ?
+
+#SAY.Flowchart.210.
+Mais ce n'est pas le portefeuille le problème enfin !
+
+#SAY.Flowchart.209.
+C'est mon argent et mes papiers d'identité !
+
+#SAY.Flowchart.208.
+Elle est bête ou quoi ?
+
+#SAY.Flowchart.207.
+Je la regarde: elle a l'air d'attendre une réaction de ma part.
+
+#SAY.Flowchart.213.
+Mmmh, à bien y réfléchir et au vu du soupir qu'elle a poussé, elle ne me parle peut-être pas de vendeur ...
+
+#SAY.Flowchart.186.
+La police ...
+
+#SAY.Flowchart.188.
+Elle ne veut pas m'aider, je suppose, mais j'ai peur d'aller voir la police, après tout je suis un clandestin ici.
+
+#SAY.Flowchart.187.
+Je lui fais un "non" de la tête.
+
+#SAY.Flowchart.189.
+Elle a l'air perdue.
+
+#SAY.Flowchart.191.NINA
+Tu ne veux pas attraper {color=red}ẞrἲῘῗᾹᾒđ {/color} ?
+
+#SAY.Flowchart.190.
+Oh !
+
+#SAY.Flowchart.193.
+{color=red}ẞrἲῘῗᾹᾒđ {/color}, {color=red}>ẞrἲῘῗᾹᾒđ </color> ...
+
+#SAY.Flowchart.192.
+Un brigand ! Elle parle du voleur, pas de la police!
+
+#SAY.Flowchart.196.
+{color=red}ẞrἲῘῗᾹᾒđ{/color}, {color=red}ẞrἲῘῗᾹᾒđ{/color} ...
+
+#SAY.Flowchart.200.
+Oh ! Brigand !
+
+#SAY.Flowchart.199.
+Elle parle d'un voleur !
+
+#SAY.Flowchart.198.
+Celui qui m'a piqué mon portefeuille.
+
+#SAY.Flowchart.197.
+Je me lève et frappe le comptoir, certains des habitués me jettent des regards accusateurs ou surpris.
+
+#SAY.Flowchart.202.STOL
+La raclure!
+
+#SAY.Flowchart.201.Narrateur
+Passée la surprise initiale, Nina saute elle aussi de sa chaise et frappe du poing sur le comptoir.
+
+#SAY.Flowchart.205.NINA
+OUI !
+
+#SAY.Flowchart.204.NINA
+On va attraper le {color=red}ẞrἲῘῗᾹᾒđ{/color} ! Tous les deux. Retrouver ton {color=red} ƿᾂᾠῥᾰỻựἕ{/color} !
+
+#SAY.Flowchart.203.
+*On commencé Ᾱ Ὦᾂᾠῥᾰ ὓὂἱ !
+ *
+
+#MENU.Flowchart.220
+On commence ce soir!
+
+#MENU.Flowchart.219
+On commence la semaine prochaine !
+
+#SAY.Flowchart.223.
+Je hoche la tête avec entrain.
+
+#SAY.Flowchart.227.
+Nina bâille.
+
+#SAY.Flowchart.231.NINA
+: je suis… la fatigue, Ẵ Ḏᴈⴍὰῑἧ Stol !
+
+#MENU.Flowchart.234
+Répondre "À demain" en Terrien
+
+#MENU.Flowchart.235
+Répondre "À demain" en Callistien
+
+#MENU.Flowchart.244
+₳ Ḍᴈᴟὰῑή
+
+#MENU.Flowchart.242
+Ẵ Ḏᴈⴍὰῑἧ
+
+#MENU.Flowchart.243
+Ẵ Ḏᴈⴍ  Ỽὰῑἧή
+
+#SAY.Flowchart.241.STOL
+À demain !
+
+#SAY.Flowchart.240.Narrateur
+Nina tente de répéter l'expression terrienne, l'air un peu géné.
+
+#SAY.Flowchart.255.
+Ẵ Ḏᴈⴍ  Ỽὰῑἧή
+
+#SAY.Flowchart.259.
+Elle pouffe de rire, incapable de se retenir, je crois que j’ai dit une bêtise …
+
+#SAY.Flowchart.258.Narrateur
+Elle répète la bonne tournure
+
+#SAY.Flowchart.257.
+Ẵ Ḏᴈⴍὰῑἧ
+
+#SAY.Flowchart.256.
+Vous obtenez 1 point d'initiative.
+
+#SAY.Flowchart.248.
+Ẵ Ḏᴈⴍὰῑἧ
+
+#SAY.Flowchart.250.
+Elle semble très contente que je lui réponde dans sa langue, un grand sourire efface momentanément son air exténué.
+
+#SAY.Flowchart.249.
+Vous obtenez 2 points d'initiative
+
+#SAY.Flowchart.251.STOL
+₳ Ḍᴈᴟὰῑή
+
+#SAY.Flowchart.253.
+Elle sourit doucement et répète la bonne tournure:
+
+#SAY.Flowchart.252.NINA
+Ẵ Ḏᴈⴍὰῑἧ
+
+#SAY.Flowchart.254.
+Vous obtenez 1 point d'initiative
+
+#SAY.Flowchart.261.
+SEMAINE 1: FIN
+
+#SAY.Flowchart.491.Narrateur
+Une nouvelle semaine s'achève.
+
+#CHARACTER.BOSS
+BOSS
+
+#CHARACTER.STOL
+STOL
+
+#CHARACTER.NINA
+NINA
+
+#CHARACTER.CONTROLEUR
+CONTROLEUR
+
+#CHARACTER.Narrateur
+Narrateur
+
+#CHARACTER.BARMAID
+BARMAID
+

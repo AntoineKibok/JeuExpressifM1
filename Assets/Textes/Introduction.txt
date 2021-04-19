@@ -1,0 +1,720 @@
+#SAY.Flowchart.3.STOL
+Nous sommes en 3784.
+
+#SAY.Flowchart.4.STOL
+L’humanité s’est installée à travers tout le système solaire au sein de colonies reliées entre elles par TGV (Train à Gravitation Variable) .
+
+#SAY.Flowchart.8.STOL
+Je suis en route vers Mars depuis la Terre pour rendre visite à mes parents.
+
+#SAY.Flowchart.380.STOL
+Quelle idée de s’expatrier aussi loin, le voyage est tellemeeeeent loooong…
+
+#SAY.Flowchart.7.
+Bref, je vais me reposer les yeux quelques minutes.
+
+#SAY.Flowchart.6.
+Quelques minutes …
+
+#SAY.Flowchart.5.
+*ronfl*
+
+#SAY.Flowchart.11.CONTROLEUR
+ΠἆᾣϟͰέuͱ ... ΠἆᾣϟͰέuͱ ? …
+… ΠΔϟἷΕ>Uη !!
+
+#SAY.Flowchart.20.CONTROLEUR
+Ϝους êτες αυς τερμινυς μονσιευρ, σε ϝους πριε δε δεσξενξες !
+
+#SAY.Flowchart.489.STOL
+Euuh....
+
+#SAY.Flowchart.21.
+Cette langue râpeuse … Du Callistien ? C'est rare d’en rencontrer ailleurs que sur leur planète d’origine, il parait que le climat là-bas est très particulier…
+
+#SAY.Flowchart.19.
+Je ne comprends pas du tout ce qu’il me dit, mais il a l’air irrité ...
+
+#SAY.Flowchart.27.
+CALLISTO 
+MON AMOUR
+
+#MENU.Flowchart.83
+Se lever et partir
+
+#MENU.Flowchart.84
+Répondre
+
+#SAY.Flowchart.88.STOL
+Pas la peine d'être agressif ! Je sors c'est bon !
+
+#SAY.Flowchart.145.
+Mais, attends une seconde .. ?!
+
+#SAY.Flowchart.356.
+Ce type-là, son uniforme ! ...  Un contrôleur ?! Ça voudrait dire que …
+
+#SAY.Flowchart.149.
+NE ME DITES PAS QUE J’AI RATÉ MON ARRÊT ?!?
+
+#SAY.Flowchart.105.
+Je sors mon meilleur sourire gêné :
+
+#SAY.Flowchart.107.STOL
+Désolé Monsieur, mais je ne comprends pas votre langue .
+
+#SAY.Flowchart.108.
+Il a l’air d’insister…
+
+#SAY.Flowchart.354.STOL
+"Μαωο"? Désolé. Je me suis endormi.
+
+#SAY.Flowchart.353.CONTROLEUR
+Σε συις δεσολε μονσιευρ μαις ϝους δεϝεζ θυιττερ λες λιευχ  !!
+
+#SAY.Flowchart.109.
+Mais .. ?!
+
+#SAY.Flowchart.110.
+Cet uniforme ! Un contrôleur ?! Ça voudrait dire que …
+
+#SAY.Flowchart.112.STOL
+NE ME DITES PAS QUE J’AI RATÉ MON ARRÊT ?!?
+
+#SAY.Flowchart.97.CONTROLEUR
+Ουστ !
+
+#SAY.Flowchart.98.STOL
+"Ουστ" ? La terre, vous connaissez ?
+
+#SAY.Flowchart.99.CONTROLEUR
+*grrr*
+
+#SAY.Flowchart.355.STOL
+... La Terre !
+
+#SAY.Flowchart.101.STOL
+Hey ! Lâchez-moi !
+
+#SAY.Flowchart.133.
+MAIS ?! ...
+
+#SAY.Flowchart.379.
+JE SUIS AU TERMINUS DE LA LIGNE !!!
+
+#SAY.Flowchart.135.STOL
+*tap tap* ... Mon portefeuille !
+
+#SAY.Flowchart.136.STOL
+Disparu …
+
+#SAY.Flowchart.138.
+MAIS COMMENT VAIS-JE FAIRE POUR REPARTIR 
+D' ICI ?!!
+
+#SAY.Flowchart.158.PASSANT
+ᾩώὄἾ ?
+
+#SAY.Flowchart.159.STOL
+La terre ! Aidez-moi.
+
+#SAY.Flowchart.160.PASSANT
+ὰἱῥύὙ.... ͿϝἷἿᾕ ὲωρ ϝἷἿᾕ.
+
+#SAY.Flowchart.161.STOL
+Mais... revenez ! Je ne veux rien vous vendre !
+
+#SAY.Flowchart.162.
+C'est donc ça que ressentent les démarcheurs ?
+
+#SAY.Flowchart.164.
+Quelle langue étrange tout de même ! Le premier mot qu'il a dit ressemblait un peu à "Quoi", c'était peut-être ça.
+
+#SAY.Flowchart.165.
+Pas sûr que ça me ne serve beaucoup, mais bon.
+
+#MENU.Flowchart.166
+Se mettre assis et pleurer un peu
+
+#MENU.Flowchart.167
+Marcher
+
+#SAY.Flowchart.177.
+*Snif*
+
+#SAY.Flowchart.178.
+Perdu... sur Callisto.
+
+#SAY.Flowchart.179.
+Je ne suis jamais allé aussi loin. Oh non...
+
+#SAY.Flowchart.357.
+*Sniiiiiif*
+
+#SAY.Flowchart.181.
+Et s’il m'arrivait quelque chose ?
+
+#SAY.Flowchart.182.
+J'en tremble. *Sniff*
+
+#SAY.Flowchart.185.Narrateur
+Le premier pas fut surprenant.
+
+#SAY.Flowchart.186.Narrateur
+À peine avait-il foulé le sol que sa botte s'enfonçait doucement.
+
+#SAY.Flowchart.187.Narrateur
+Ce qui semblait être une rue principale était piteux état. Avait-elle toujours été aussi boueuse ?
+
+#SAY.Flowchart.188.Narrateur
+Marcher sur un tel sol était très étrange, la gravité était moindre que sur terre. Ses pieds s'enfonçaient, mais mettaient un certain temps à trouver le fond.
+
+#SAY.Flowchart.189.Narrateur
+Après quelques secondes d'adaptation, ses pas sont devenus plus assurés.
+
+#SAY.Flowchart.190.Narrateur
+Il était maintenant rapide, autant que quelqu'un marchant en faible pesanteur dans la boue puisse l'être.
+
+#SAY.Flowchart.191.Narrateur
+Heureusement qu'il n'y avait presque personne dehors. À Newer-York, il se serait fait bousculer pour avoir marché aussi lentement.
+
+#SAY.Flowchart.192.Narrateur
+Il se mit à observer la rangée de bâtiments tout le long de la rue.
+
+#SAY.Flowchart.193.
+C'est étrange, c'est beau et miteux en même temps.
+
+#SAY.Flowchart.194.
+Ce petit... bar ? Par exemple. Il arbore de grandes torches magnétiques devant la porte.
+
+#SAY.Flowchart.195.
+Mais la façade est morcelée, la peinture est abîmée et une vitre est cassée.
+
+#SAY.Flowchart.196.
+Étrange mélange.
+
+#SAY.Flowchart.197.
+La plupart des bâtiments semblent identiques, comme s’ils avaient tous été construits sur le même modèle.
+
+#SAY.Flowchart.198.
+Ils auraient pu choisir une couleur différente, c'est salissant le blanc, surtout avec cette atmosphère sableuse.
+
+#SAY.Flowchart.199.
+Un bel orange aurait été parfait. Quoi que... Bonne chance pour retrouver ta maison ensuite...
+
+#SAY.Flowchart.377.
+Aïe !
+
+#SAY.Flowchart.200.
+ΙΖβϱὩ ᾇ  ἆἂᾖῙΈἂ  όὦ·ͼ   ϼᾖῙ ϱὩΏ ἂ  ᾖῙ
+
+#SAY.Flowchart.202.
+Mais oui c'est clair. Super poli en plus !
+
+#SAY.Flowchart.203.
+Où suis-je tombé ?... J'ai vraiment fait le con cette fois-ci.
+
+#SAY.Flowchart.204.LE VENT QUI SE LÈVE
+*Wouuuush*
+
+#SAY.Flowchart.205.
+Oh. Non. Déjà que je n'y voyais rien... Avec ce sable porté par le vent, c'est pire.
+
+#SAY.Flowchart.206.LE VENT QUI S'EST LEVÉ
+*WOUUUUUUSH*
+
+#SAY.Flowchart.208.STOL
+Blaaarrg, dans ma *ptff ptff* bouche. Saloperie. de.. sable.
+
+#SAY.Flowchart.209.STOL
+Arg, mes... yeux...
+
+#SAY.Flowchart.359.Narrateur
+Le sable dans la bouche était désagréable, mais celui dans les yeux est pire.
+
+#SAY.Flowchart.211.Narrateur
+Heursement, l'intempérie ne semblait pas durer, le vent se calmait.
+
+#SAY.Flowchart.212.LE VENT QUI S'EST LEVÉ
+*woush...*
+
+#SAY.Flowchart.214.Narrateur
+Stol était au milieu de la rue, tout sableux et souffrant.
+
+#SAY.Flowchart.215.Narrateur
+Sans s'en rendre compte, il s'était même accroupi.
+
+#SAY.Flowchart.216.Narrateur
+Il grattait maladroitement ses yeux rougis, ce qui le soulageait temporairement.
+
+#SAY.Flowchart.220.
+J'espère que tout le monde n'est pas comme lui.
+
+#SAY.Flowchart.221.
+Et qu'est-ce que cette langue d'abord ?...
+
+#SAY.Flowchart.222.
+Le seul mot que j'ai retenu c'est "Ουστ", mais je l'ai mal prononcé et je ne sais pas ce que ça veut dire.
+
+#SAY.Flowchart.223.
+Enfin bref ...
+
+#SAY.Flowchart.384.Narrateur
+Callisto, la dernière colonie humaine ... Personne n'y va en général, c'est trop loin.
+
+#SAY.Flowchart.367.Narrateur
+Elle est isolée que la langue et les coutumes se sont peu à peu détachées. 
+
+#SAY.Flowchart.229.STOL
+Bon... Qu'est-ce que je fais maintenant ?
+
+#MENU.Flowchart.231
+Se mettre assis et pleurer un peu
+
+#MENU.Flowchart.232
+Interpeller un passant
+
+#MENU.Flowchart.233
+Marcher
+
+#SAY.Flowchart.235.Narrateur
+Une fois rentrées dans le bâtiment, ses inquiétudes se dissipèrent.
+
+#SAY.Flowchart.363.Narrateur
+Par "βὑῡεττ", elle voulait parler d'un bar, c'est tout.
+
+#SAY.Flowchart.237.Narrateur
+Assez sympa comme bar d'ailleurs, bien éclairé.
+
+#SAY.Flowchart.238.NINA
+Ici, c'ἒϞt bien.
+
+#SAY.Flowchart.239.NINA
+C'est ma Ταβλε favorite.
+
+#SAY.Flowchart.240.STOL
+Elle m'a l'air parfaite, tu viens souvent ici ?
+
+#SAY.Flowchart.241.NINA
+Oui, on peut διρε çα.
+
+#SAY.Flowchart.242.STOL
+Pardon ?
+
+#SAY.Flowchart.243.NINA
+*Hmmf* διρε çα.. di..re ça
+
+#SAY.Flowchart.244.STOL
+Ah oui, désolé. D'accord !
+
+#SAY.Flowchart.245.BOSS
+οδφειζφ φφευβευθ ππ·α !
+
+#SAY.Flowchart.246.NINA
+Ιλ ϝα πρενδδρε λα λεκφοε.
+
+#SAY.Flowchart.247.BOSS
+δϝοϝ  οοεθθ·φφδο...
+
+#SAY.Flowchart.248.BOSS
+Μαις δις μ οι δο   νξδζο ΓΓΣΣΕ ζο δοζ,α
+
+#SAY.Flowchart.249.NINA
+δéγαγε
+
+#SAY.Flowchart.252.Narrateur
+Le tavernier déposa un écran portatif qui affichait un menu puis s'en alla.
+
+#SAY.Flowchart.253.Narrateur
+Après quelques secondes Νἶπᾳ la récupéra et lui tendit.
+
+#SAY.Flowchart.254.STOL
+Heu. Je ne comprends rien...
+
+#SAY.Flowchart.255.NINA
+Ahah, ξssayξ. Coϻϻande quξlque chose.
+
+#SAY.Flowchart.256.
+Mmmh....
+
+#SAY.Flowchart.257.NINA
+Ρεμèνε τοι βορδελ !
+
+#SAY.Flowchart.258.STOL
+Attends !
+
+#SAY.Flowchart.259.Narrateur
+Elle se mit à rire pendant que l'imposant tavernier s'approchait de la table.
+
+#SAY.Flowchart.364.STOL
+Euuh.
+
+#MENU.Flowchart.261
+Essayer de lire : ξηοσε
+
+#MENU.Flowchart.262
+Pointer : ξηοσε
+
+#MENU.Flowchart.263
+Essayer de lire : Ξαφé σαλé
+
+#MENU.Flowchart.264
+Pointer : Ξαφé σαλé
+
+#SAY.Flowchart.266.STOL
+Ξαp...é saλ...ey ..?
+
+#SAY.Flowchart.267.Narrateur
+Nina sourit puis pouffa de rire. 
+
+#SAY.Flowchart.268.NINA
+BravΘ ! Aha
+
+#SAY.Flowchart.365.STOL
+ξn...οσ..e?
+
+#SAY.Flowchart.276.Narrateur
+Nina sourit.
+
+#SAY.Flowchart.277.NINA
+BravΘ !
+
+#SAY.Flowchart.284.Narrateur
+Le serveur acquiesça et s'en alla. Ouf.
+
+#SAY.Flowchart.285.STOL
+Au fait, Nina, c'est bien ton prénom ?
+
+#SAY.Flowchart.286.NINA
+Ουι, c'est çα
+
+#SAY.Flowchart.287.STOL
+Je le prononce bien ?
+
+#SAY.Flowchart.288.NINA
+Non, c'est Νἶἶἶἶ...πᾳ
+
+#SAY.Flowchart.289.STOL
+Νiii...na
+
+#SAY.Flowchart.290.NINA
+Νἶἶἶἶ...πᾳᾳᾳᾳ
+
+#SAY.Flowchart.291.STOL
+Νiiἶἶ...nᾳaa
+
+#SAY.Flowchart.292.STOL
+Νἶ...nᾳᾳ
+
+#SAY.Flowchart.293.NINA
+Brᾳvο ! Γοοφε !
+
+#SAY.Flowchart.294.Narrateur
+Il n'avait pas compris le dernier mot, mais elle avait l'air contente.
+
+#SAY.Flowchart.295.NINA
+Et toἶ ?
+
+#SAY.Flowchart.296.STOL
+Oh, oui ! J'ai oublié de me présenter ! Je m'appelle Stol !
+
+#SAY.Flowchart.297.NINA
+StΦl
+
+#SAY.Flowchart.298.BOSS
+StΦl  θυε λε πρεερερ ͺ τινες πουρ Νἶπᾳ
+
+#SAY.Flowchart.299.Narrateur
+Le tavernier arriva. Il posa son plateau sur la table et continua de parler à Stol.
+
+#SAY.Flowchart.300.BOSS
+Ενξηαντé μον πειτ StΦl. ξομμεντ ϝα τυ ϒᾱἡr.
+
+#MENU.Flowchart.301
+Attendre
+
+#MENU.Flowchart.302
+Sourire et rire légèrement
+
+#SAY.Flowchart.304.Narrateur
+Le tavernier le fixait.
+
+#SAY.Flowchart.305.BOSS
+Ενξηαντé μον πειτ StΦl. ξομμεντ ϝα τυ ϒᾱἡr.
+
+#MENU.Flowchart.306
+Hausser les sourcils et hocher la tête
+
+#MENU.Flowchart.307
+Le fixer dans les yeux
+
+#SAY.Flowchart.309.NINA
+*Rires* Il se présente. Il s'appelle ϒᾱἡr.
+
+#SAY.Flowchart.310.BOSS
+Σε συις ϒᾱἡr... ϒᾱἡr.
+
+#SAY.Flowchart.311.BOSS
+Ενξηαντé.
+
+#SAY.Flowchart.312.STOL
+Enchanté, Stol !
+
+#SAY.Flowchart.313.Narrateur
+Ils hochèrent tous deux la tête et ϒᾱἡr s'en alla.
+
+#SAY.Flowchart.314.Narrateur
+Νἶπᾳ prit directement en main sa spacio-bière fraîche et en vida la moitié. Elle leva ensuite la main, certainement pour en commander directement une deuxième.
+
+#SAY.Flowchart.317.Narrateur
+Quant à Stol, il n'avait pas encore touché à sa boisson, il la regardait d'un air absent.
+
+#SAY.Flowchart.318.Narrateur
+Les secondes passaient, ses yeux ne bougeaient pas. Il était amorphe.
+
+#SAY.Flowchart.410.NINA
+SͲϙl ? 
+
+#SAY.Flowchart.412.NINA
+SͲϙl ?
+
+#SAY.Flowchart.414.Narrateur
+Elle se pencha sur la table et lui attrapa le bras.
+
+#SAY.Flowchart.419.NINA
+Τὺ eζ tristἔssϵ ?
+
+#SAY.Flowchart.418.STOL
+Désolé, Nina.
+
+#SAY.Flowchart.416.STOL
+Oui, tristesse.
+
+#SAY.Flowchart.417.NINA
+*humpf*
+
+#SAY.Flowchart.415.STOL
+Oui, exactement. Humpf.
+
+#SAY.Flowchart.413.NINA
+Pὂurqὺoi ἷu eζ tristἔssϵ ?
+
+#SAY.Flowchart.420.STOL
+Je ne peux pas rentrer chez moi, je suis perdu. Sur cette planète inconnue.
+
+#SAY.Flowchart.421.Narrateur
+Elle pencha la tête sur la droite, le regardant d'un air perplexe.
+
+#SAY.Flowchart.422.STOL
+De l'argent, j'ai besoin d'argent. Beaucoup d'agent.
+
+#SAY.Flowchart.423.NINA
+Ah, αrgεnt... Il te faυt donc dῠ Ͱrαὼᾆἶl.
+
+#SAY.Flowchart.424.NINA
+..trαvᾆἶl.
+
+#SAY.Flowchart.425.STOL
+Aha, oui ce serait bien.
+
+#SAY.Flowchart.428.NINA
+βόn.
+
+#SAY.Flowchart.429.Narrateur
+Elle se leva et alla vers le comptoir.
+
+#SAY.Flowchart.320.Narrateur
+Une main se posa sur son épaule.
+
+#SAY.Flowchart.321.Narrateur
+Il releva doucement les yeux.
+
+#SAY.Flowchart.322.Narrateur
+Quelqu'un l'avait finalement pris en pitié.
+
+#SAY.Flowchart.323.Narrateur
+Cette fille s'était arrêtée pour lui venir en aide.
+
+#SAY.Flowchart.324.NINA
+ᾞἴᾒΈ ὥῪἺἲὈ ?
+
+#SAY.Flowchart.391.STOL
+Euh.. Je ...Argh !
+
+#SAY.Flowchart.325.NINA
+ᾞἴᾒΈ.... ὥ...ῪἺἲὈ ??
+
+#SAY.Flowchart.326.
+*Mhhhpf* Je.. ne comprends rien !
+
+#SAY.Flowchart.327.Narrateur
+Ses yeux rouges avaient parlé à sa place, elle lui tendit un mouchoir en tissu brodé.
+
+#SAY.Flowchart.328.Narrateur
+Il le prit et se frotta vigoureusement les yeux avec.
+
+#SAY.Flowchart.329.
+Arrrrg, c'est pire ! Pourquoi ai-je fait ça ?
+
+#SAY.Flowchart.330.Narrateur
+L'inconnue rit quelques secondes puis le prit par la main.
+
+#SAY.Flowchart.331.Narrateur
+Elle le conduit jusqu'à un petit banc, contre une maison toute proche.
+
+#SAY.Flowchart.333.Narrateur
+Après quelques secondes assis, il se sentait déjà un peu calmé, calmé.
+
+#SAY.Flowchart.334.STOL
+Merci.
+
+#SAY.Flowchart.335.STOL
+Merci beaucoup. Parles-tu le terrien ?
+
+#SAY.Flowchart.336.NINA
+Dἒ rἶἒn. Θυι... on peut.
+
+#SAY.Flowchart.337.NINA
+...un ρέu
+
+#SAY.Flowchart.338.NINA
+Pourquoἲ, tu π'έst pas sur Tέrrέ ?
+
+#SAY.Flowchart.339.STOL
+J'ai embarqué dans une navette pour venir voir mes parents. Mais je me suis endormi et je ne me suis réveillé qu'au terminus.
+
+#SAY.Flowchart.340.STOL
+C'est la première fois que je viens ici. Qu'est-ce que c'est cette atmosphère sableuse ? Et cette boue au sol ? Et pourquoi tout le monde a-t-il l'air aussi énervé ?
+
+#SAY.Flowchart.341.NINA
+ηαveττe ?
+
+#SAY.Flowchart.342.STOL
+Oui, *wouuurm* dans l'espace
+
+#SAY.Flowchart.343.NINA
+Spaciɵ trɑŋŝporteur ?
+
+#SAY.Flowchart.344.STOL
+Oui voilà ! Moi. dans le spacio transporteur, j'ai dormi.
+
+#SAY.Flowchart.345.Narrateur
+Il décrivait maintenant son périple en bruit et autres mimes. Son siège inconfortable, son sommeil ininterrompu, sa rencontre avec le videur de navettes...
+
+#SAY.Flowchart.346.Narrateur
+Quand il eut fini son histoire, il la regarda dans les yeux
+
+#SAY.Flowchart.347.STOL
+Et maintenant...
+
+#SAY.Flowchart.348.Narrateur
+et haussa les épaules.
+
+#SAY.Flowchart.349.NINA
+Tu as déjà dormi. Viens avec moi dans βὑῡεττ.
+
+#SAY.Flowchart.350.Narrateur
+Elle se leva et lui tendit la main.
+
+#MENU.Flowchart.351
+Prendre sa main
+
+#MENU.Flowchart.352
+Se lever et la suivre
+
+#SAY.Flowchart.432.
+J'ai déjà peur. Heursement qu'elle est là, je n’aurais même pas eu de quoi m'offrir à boire.
+
+#SAY.Flowchart.433.
+En parlant de boisson...
+
+#SAY.Flowchart.434.
+*sluuuurp*
+
+#SAY.Flowchart.436.
+Oh c'est super bon ça ! On dirait un mélange de café et de ... ? Barabapa ?
+
+#SAY.Flowchart.437.
+*sluurp* Délicieux.
+
+#SAY.Flowchart.438.
+*sluurp*
+
+#SAY.Flowchart.439.Narrateur
+Il procédait à son dernier slurp pendant qu'elle revenait doucement, les mains dans le dos.
+
+#SAY.Flowchart.441.
+*slurp ?*
+
+#SAY.Flowchart.442.STOL
+EURK ! *pfffffft*
+
+#SAY.Flowchart.443.STOL
+Pardon.
+
+#SAY.Flowchart.444.
+C'est horrible ce truc, arg.
+
+#SAY.Flowchart.445.
+Super, j'en ai mis partout. On dirait de l'eau croupie, c'est quoi ce délire ?
+
+#SAY.Flowchart.446.
+Grmbl, elle arrive, vite, il faut que j'essuie la table, j'en ai mis partout.
+
+#SAY.Flowchart.447.Narrateur
+Elle revenait en riant, les mains, suspicieusement, dans le dos.
+
+#SAY.Flowchart.448.
+Pourquoi ai-je un peu peur d'un coup ? Et pourquoi le tavernier la suit en souriant aussi ? Raaah qu'est ce qui se passe encore ?
+
+#SAY.Flowchart.454.BOSS
+Μον πετιτ τερριεν, σε συις τελλεμεντ τουξηé παρ τοι,
+
+#SAY.Flowchart.455.BOSS
+δεϝιεντ μον εσξλαϝε !
+
+#SAY.Flowchart.456.BOSS
+Σε ϝαις τε ξηéριρ, τε προτéγερ, ετ τε δοννερ πλειν δε μουλα.
+
+#SAY.Flowchart.457.Narrateur
+Le grand tavernier s'approcha de lui et le prit dans ses bras. Il sentait le café.
+
+#SAY.Flowchart.458.
+Qu'est-ce que c'est ce délire ? Et pourquoi sourit-elle avec les mains dans le dos ?
+
+#SAY.Flowchart.459.NINA
+Attrαpε ! Tυ cΘmmencε dεmaἱn !
+
+#SAY.Flowchart.461.Narrateur
+Elle lui jeta un tablier rouge un peu abîmé.
+
+#SAY.Flowchart.462.Narrateur
+Stol était désormais barista et commencera à travailler demain.
+
+#SAY.Flowchart.490.Narrateur
+La première soirée s'achève.
+
+#CHARACTER.PASSANT
+PASSANT
+
+#CHARACTER.BOSS
+BOSS
+
+#CHARACTER.LE VENT QUI S'EST LEVÉ
+LE VENT QUI S'EST LEVÉ
+
+#CHARACTER.LE VENT QUI SE LÈVE
+LE VENT QUI SE LÈVE
+
+#CHARACTER.STOL
+STOL
+
+#CHARACTER.NINA
+NINA
+
+#CHARACTER.CONTROLEUR
+CONTROLEUR
+
+#CHARACTER.Narrateur
+Narrateur
+

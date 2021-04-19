@@ -533,7 +533,6 @@ GameObject:
   - component: {fileID: 504165151}
   - component: {fileID: 504165150}
   - component: {fileID: 504165149}
-  - component: {fileID: 504165148}
   - component: {fileID: 504165147}
   - component: {fileID: 504165146}
   - component: {fileID: 504165145}
@@ -612,6 +611,7 @@ GameObject:
   - component: {fileID: 504165215}
   - component: {fileID: 504165214}
   - component: {fileID: 504165232}
+  - component: {fileID: 504165233}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -690,7 +690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 237.71924
     y: -983.4307
-    width: 136.56717
+    width: 128.68854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -720,7 +720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.404877
     y: -994.46716
-    width: 120.14926
+    width: 115.573784
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  text: "elle m\u2019invite au bar"
+  text: "Elle m\u2019invite au bar"
   description: 
   targetBlock: {fileID: 504165003}
   hideIfVisited: 0
@@ -801,7 +801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.06015
     y: -1037.0854
-    width: 88.80598
+    width: 87.704926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 0
-  storyText: 'au revoir, '
+  storyText: au revoir,
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -980,8 +980,8 @@ MonoBehaviour:
   itemId: 88
   indentLevel: 0
   storyText: "C\u2019est toujours excessivement compliqu\xE9 de communiquer dans
-    cette langue \xE9trange mais je commence \xE0 retenir quelques usages courants
-    : "
+    cette langue \xE9trange, mais je commence \xE0 retenir quelques usages courants
+    :"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: 'Bonjour, '
+  storyText: Bonjour,
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: 'merci, '
+  storyText: merci,
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: "lait d\u2019amande biologique localement sourc\xE9\u2026."
+  storyText: "lait d\u2019amande biologique localement sourc\xE9\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1118,7 +1118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: " \"Ah ! Euh\u2026 merci ! \""
+  storyText: "\"Ah ! Euh\u2026 merci ! \""
   description: 
   character: {fileID: 2118736235}
   portrait: {fileID: 0}
@@ -1145,9 +1145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: "J\u2019ai eu la chance de tomber sur une personne \xE9tonnement compr\xE9hensive
-    pour quelqu\u2019un avec qui je n\u2019ai aucun de moyen de communications en
-    commun. "
+  storyText: "J\u2019ai eu la chance de tomber sur lui. Il est \xE9tonnamment compr\xE9hensif
+    malgr\xE9 le fait qu'on ne parle pas la m\xEAme langue."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1174,7 +1173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: "Je l\u2019appelle Boss, je crois qu\u2019il m\u2019a donn\xE9 son nom
+  storyText: "Je l\u2019appelle Boss, je crois qu\u2019il m\u2019a donn\xE9 son nom,
     mais je ne suis pas s\xFBr de le prononcer correctement alors j\u2019\xE9vite."
   description: 
   character: {fileID: 0}
@@ -1203,7 +1202,7 @@ MonoBehaviour:
   itemId: 80
   indentLevel: 0
   storyText: "Boss me paye \xE0 la semaine et me laisse dormir au caf\xE9 apr\xE8s
-    la fermeture. "
+    la fermeture."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1230,8 +1229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 79
   indentLevel: 0
-  storyText: "L\u2019autre bonne surprise s\u2019appelle Nina, on peut considerer
-    qu'elle m'a litteralement sorti de la rue et c'est maintenant ma coll\xE8gue. "
+  storyText: "L\u2019autre bonne surprise s\u2019appelle Nina, on peut consid\xE9rer
+    qu'elle m'a litt\xE9ralement sorti de la rue. C'est maintenant ma coll\xE8gue.
+    Elle travaille aussi ici."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1289,7 +1289,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 143.90233
     y: -934.89307
-    width: 87.31344
+    width: 84.42624
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1299,6 +1299,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 504165185}
+  - {fileID: 504165233}
   - {fileID: 504165175}
   - {fileID: 504165173}
   - {fileID: 504165174}
@@ -1323,8 +1324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: "Elle sourit legerement et me fais un signe de la t\xEAte avant de se
-    diriger vers la sortie."
+  storyText: "Elle sourit l\xE9g\xE8rement et me fait un signe de la t\xEAte avant
+    de se diriger vers la sortie."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1351,7 +1352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: "Haaaaaaaan\u2026 "
+  storyText: "Haaaaaaaan\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1380,7 +1381,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 129.1792
     y: -1109.8292
-    width: 109.7015
+    width: 104.09837
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1471,7 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: " Oh non, je rougis l\xE0 non ? Je rougis clairement !"
+  storyText: "Oh non, je rougis l\xE0 non ? Je rougis clairement !"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1510,7 +1511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 0
-  storyText: "Je ne sais pas quoi r\xE9pondre \xE0 ca !"
+  storyText: "Je ne sais pas quoi r\xE9pondre \xE0 \xE7a !"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1604,9 +1605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  storyText: "Il me tends une petite liasse de billets aux couleurs \xE9tranges.
-    Au bout d'une semaine, je commence \xE0 avoir une bonne id\xE9e de ce qu'ils
-    valent."
+  storyText: "Il me tend une petite liasse de billets aux couleurs \xE9tranges. Au
+    bout d'une semaine, je commence \xE0 avoir une bonne id\xE9e de ce qu'ils valent."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 0
-  storyText: " Mais c\u2019est peut-\xEAtre une question de culture\u2026"
+  storyText: "Mais c\u2019est peut-\xEAtre une question de culture\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: " Au moment ou je sors mes billets, elle m\u2019arr\xEAte :"
+  storyText: "Au moment o\xF9 je sors mes billets, elle m\u2019arr\xEAte :"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1712,7 +1712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  storyText: "Non, Non ! Ton {color=red}\u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
+  storyText: "Non, non ! Ton {color=red}\u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
     {/color} !"
   description: 
   character: {fileID: 1844019563}
@@ -1792,7 +1792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  text: Elle me demande de payer
+  text: Elle me demande de payer.
   description: 
   targetBlock: {fileID: 504165046}
   hideIfVisited: 0
@@ -1840,7 +1840,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37.553745
     y: -650.85345
-    width: 84.32837
+    width: 81.147545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1872,7 +1872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -24.239517
     y: -300.88577
-    width: 91.791046
+    width: 89.34427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1901,7 +1901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 124.895615
     y: -609.08026
-    width: 117.16419
+    width: 110.65575
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1937,7 +1937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.55316
     y: -701.4857
-    width: 90.298515
+    width: 89.34427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1964,7 +1964,7 @@ MonoBehaviour:
   itemId: 155
   indentLevel: 0
   storyText: "\u0166\u1FE2 \u1F80 \u1F73\u1F53\u1F42\u1F31\u1F15\u1EFB\u1EF1 \u1FD8\u1FD7
-    \u1FF8\u1FD6\u1FD9\u1F73\u1F72 \u20AA\u1F76\u1FC7\u1F81 ? "
+    \u1FF8\u1FD6\u1FD9\u1F73\u1F72 \u20AA\u1F76\u1FC7\u1F81 ?"
   description: 
   character: {fileID: 783967734}
   portrait: {fileID: 0}
@@ -2047,7 +2047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: Elle se tourne vers Nina
+  storyText: Elle se tourne vers Nina.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2076,7 +2076,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134.57898
     y: -761.3339
-    width: 97.7612
+    width: 94.2623
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: 'La Barmaid souri '
+  storyText: La barmaid sourit
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 146
   indentLevel: 0
-  storyText: je crois qu'elle me demande mon nom ..
+  storyText: Je crois qu'elle me demande mon nom.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: 'Je veux ca ! '
+  storyText: "Je veux \xE7a !"
   description: 
   character: {fileID: 2118736235}
   portrait: {fileID: 0}
@@ -2247,8 +2247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: "La barmaid se renfrogne soudainement mais me tends la bouteille que
-    j\u2019ai demand\xE9 puis se tourne \xE0 nouveau vers Nina."
+  storyText: "La barmaid se renfrogne soudainement, mais me tend la bouteille que
+    j\u2019ai demand\xE9e puis se tourne \xE0 nouveau vers Nina."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2275,7 +2275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: ... j'ai dit un betise je crois ...
+  storyText: "... J'ai dit une b\xEAtise, je crois ..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: "Je pointe du doigt une bouteille de ce qui ressemble \xE0 une bi\xE8re"
+  storyText: "Je pointe du doigt une bouteille de ce qui ressemble \xE0 une bi\xE8re."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2331,7 +2331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 243.77902
     y: -816.33514
-    width: 81.34329
+    width: 77.86886
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2364,7 +2364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 43.494553
     y: -820.84894
-    width: 76.86568
+    width: 74.590164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2422,7 +2422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 134
   indentLevel: 0
-  text: Elle me demande mon nom
+  text: Elle me demande mon nom.
   description: 
   targetBlock: {fileID: 504165064}
   hideIfVisited: 0
@@ -2449,7 +2449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 142.6959
     y: -868.95996
-    width: 93.283585
+    width: 90.98361
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2496,7 +2496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  storyText: Elle se tourne vers moi
+  storyText: Elle se tourne vers moi.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2652,7 +2652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  storyText: Elle a l'air perdue
+  storyText: Elle a l'air perdue.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2679,8 +2679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 188
   indentLevel: 0
-  storyText: "Elle veux m'aider je suppose mais j'ai peur d'aller voir la police,
-    apr\xE8s tout je suis un clandestin ici"
+  storyText: "Elle ne veut pas m'aider, je suppose, mais j'ai peur d'aller voir la
+    police, apr\xE8s tout je suis un clandestin ici."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2707,7 +2707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: "Je lui fait un \"non\" de la t\xEAte"
+  storyText: "Je lui fais un \"non\" de la t\xEAte."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2859,7 +2859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 131.30756
     y: -450.34152
-    width: 87.31344
+    width: 84.42624
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2900,7 +2900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 239.31763
     y: -480.56888
-    width: 85.8209
+    width: 84.42624
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2935,7 +2935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 14.104904
     y: -479.9672
-    width: 99.25374
+    width: 94.2623
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2968,7 +2968,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.62393
     y: -550.4798
-    width: 90.298515
+    width: 89.34427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2996,7 +2996,7 @@ MonoBehaviour:
   itemId: 177
   indentLevel: 0
   storyText: "\"Elle dit il y a \u2026 {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
-    {/color}.. dans le quartier\" "
+    {/color}.. dans le quartier\""
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -3050,7 +3050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 173
   indentLevel: 0
-  storyText: '"Mon ... portefeuille .. ?"'
+  storyText: '"Mon... portefeuille... ?"'
   description: 
   character: {fileID: 2118736235}
   portrait: {fileID: 0}
@@ -3077,7 +3077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 172
   indentLevel: 0
-  storyText: '"Je ne l''ai plus"'
+  storyText: '"Je ne l''ai plus."'
   description: 
   character: {fileID: 2118736235}
   portrait: {fileID: 0}
@@ -3104,7 +3104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 171
   indentLevel: 0
-  storyText: Nina pointe la barmaid du doigt
+  storyText: Nina pointe la barmaid du doigt.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3181,7 +3181,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.83307
     y: -365.76477
-    width: 90.298515
+    width: 87.704926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3249,8 +3249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 0
-  storyText: "Mmmh, \xE0 bien y reflechir et au vu de l'exclamationn qu'elle a pouss\xE9,
-    elle ne me parle peut -etre pas de vendeur ..."
+  storyText: "Mmmh, \xE0 bien y r\xE9fl\xE9chir et au vu du soupir qu'elle a pouss\xE9,
+    elle ne me parle peut-\xEAtre pas de vendeur ..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3277,7 +3277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  storyText: "Mais ce n'est pas le portefeuilles le probl\xE8me enfin !"
+  storyText: "Mais ce n'est pas le portefeuille le probl\xE8me enfin !"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3358,7 +3358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: "je la regarde: elle \xE0 l'air d'attendre une r\xE9action de ma part."
+  storyText: "Je la regarde: elle a l'air d'attendre une r\xE9action de ma part."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3440,8 +3440,8 @@ MonoBehaviour:
   itemId: 204
   indentLevel: 0
   storyText: "On va attraper le {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111{/color}
-    nous tous les deux. Retrouver ton {color=red} \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15{/color}
-    !\n\n"
+    ! Tous les deux. Retrouver ton {color=red} \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15{/color}
+    !"
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -3467,11 +3467,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -63.89984, y: 1441.6859}
+  scrollPos: {x: 115.296684, y: 823.4985}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 522
-  zoom: 0.6699999
+  zoom: 0.6099999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3479,8 +3479,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 504165216}
-  selectedCommands: []
+  - {fileID: 504165137}
+  selectedCommands:
+  - {fileID: 504165133}
   variables: []
   description: 
   stepPause: 0
@@ -3521,7 +3522,7 @@ MonoBehaviour:
   itemId: 203
   indentLevel: 0
   storyText: "*On commenc\xE9 \u1FB9 \u1F6E\u1F82\u1FA0\u1FE5\u1FB0 \u1F53\u1F42\u1F31
-    !\r *"
+    !\n *"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3578,7 +3579,7 @@ MonoBehaviour:
   storyText: "Pass\xE9e la surprise initiale, Nina saute elle aussi de sa chaise
     en frappant du poing sur le comptoir"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1595981097}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3657,7 +3658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 198
   indentLevel: 0
-  storyText: "Ceui qui m'a piqu\xE9 mon porte-feuilles."
+  storyText: "Celui qui m'a piqu\xE9 mon portefeuille."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3768,7 +3769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: 'Un brigand ! Elle parle du voleur, pas de la police! '
+  storyText: Un brigand ! Elle parle du voleur, pas de la police!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3795,7 +3796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 191
   indentLevel: 0
-  storyText: "Tu ne veux pas attrapper {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
+  storyText: "Tu ne veux pas attraper {color=red}\u1E9Er\u1F32\u1FD8\u1FD7\u1FB9\u1F92\u0111
     {/color} ?"
   description: 
   character: {fileID: 1844019563}
@@ -3852,7 +3853,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 368.11115
     y: -39.46895
-    width: 78.358215
+    width: 76.229515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3887,7 +3888,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 379.04868
     y: 21.468536
-    width: 72.38806
+    width: 71.31148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3917,7 +3918,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 369.6737
     y: 82.406044
-    width: 94.77612
+    width: 92.622955
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4022,7 +4023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 241
   indentLevel: 0
-  storyText: A demain !
+  storyText: "\xC0 demain !"
   description: 
   character: {fileID: 2118736235}
   portrait: {fileID: 0}
@@ -4051,7 +4052,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Nina tente de r\xE9peter l'expression tertienne, l'air un peu g\xE9n\xE9."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1595981097}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4078,7 +4079,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0.04070282
     y: -39.740692
-    width: 91.791046
+    width: 87.704926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4109,7 +4110,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 235.29874
     y: -83.21883
-    width: 103.73135
+    width: 100.81968
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4136,7 +4137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 235
   indentLevel: 0
-  text: "R\xE9pondre \"A demain\" en Callistien"
+  text: "R\xE9pondre \"\xC0 demain\" en Callistien"
   description: 
   targetBlock: {fileID: 504165128}
   hideIfVisited: 0
@@ -4161,7 +4162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 234
   indentLevel: 0
-  text: "R\xE9pondre \"A demain\" en Terrien"
+  text: "R\xE9pondre \"\xC0 demain\" en Terrien"
   description: 
   targetBlock: {fileID: 504165127}
   hideIfVisited: 0
@@ -4209,7 +4210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.015045
     y: -160.13713
-    width: 90.298515
+    width: 87.704926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4235,7 +4236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 231
   indentLevel: 0
-  storyText: ": je suis\u2026 la fatigue, \u1EB4 \u1E0E\u1D08\u2D0D\u1F70\u1FD1\u1F27
+  storyText: "Je suis\u2026 la fatigue, \u1EB4 \u1E0E\u1D08\u2D0D\u1F70\u1FD1\u1F27
     Stol !"
   description: 
   character: {fileID: 1844019563}
@@ -4263,7 +4264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 227
   indentLevel: 0
-  storyText: Nina baille
+  storyText: "Nina b\xE2ille."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4334,7 +4335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122.079285
     y: -238.40137
-    width: 97.7612
+    width: 95.90164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4363,7 +4364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 223
   indentLevel: 0
-  storyText: "Je hoche la t\xEAte avec entrain. "
+  storyText: "Je hoche la t\xEAte avec entrain."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4417,8 +4418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 221
   indentLevel: 0
-  storyText: "Au moment ou je fais mine de me lever, pr\xEAt \xE0 partir \xE0 l\u2019aventure,
-    je remarque la fatigue sur le visage de Nina"
+  storyText: "Au moment o\xF9 je fais mine de me lever, pr\xEAt \xE0 partir \xE0
+    l\u2019aventure, je remarque la fatigue sur le visage de Nina"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4497,7 +4498,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 242.50021
     y: -301.28052
-    width: 123.13434
+    width: 118.85247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4593,33 +4594,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &504165148
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504164999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 261
-  indentLevel: 0
-  storyText: 'SEMAINE 1: FIN'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &504165149
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4636,7 +4610,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132.47397
     y: 135.29889
-    width: 67.910446
+    width: 66.39345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4645,7 +4619,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 504165148}
   - {fileID: 504165009}
   suppressAllAutoSelections: 0
 --- !u!114 &504165150
@@ -4907,7 +4880,7 @@ MonoBehaviour:
   itemId: 250
   indentLevel: 0
   storyText: "Elle semble tr\xE8s contente que je lui r\xE9ponde dans sa langue,
-    un grand sourire efface momentan\xE9ment son air extenu\xE9."
+    un grand sourire efface momentan\xE9ment son air ext\xE9nu\xE9."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5072,9 +5045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 266
   indentLevel: 0
-  storyText: "Il \xE0 tr\xE8s vite compris \xE0 ma mine et mon air perdu que je n\u2019avais
-    nulle part o\xF9 aller, ca fait chaud au c\u0153ur qu\u2019il me fasse confiance
-    \xE0 ce point alors que je suis un parfait inconnu ne parlant pas la langue\u2026"
+  storyText: "Il a tr\xE8s vite compris \xE0 ma mine et mon air perdu que je n\u2019avais
+    nulle part o\xF9 aller. \xC7a fait chaud au c\u0153ur qu\u2019il me fasse confiance
+    \xE0 ce point alors que je suis un parfait inconnu ne parlant pas sa langue\u2026"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5300,7 +5273,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Au comptoir, la barmaid salue Nina avec un grand sourire.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1595981097}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6237,7 +6210,7 @@ MonoBehaviour:
   itemId: 294
   indentLevel: 0
   storyText: "Stol! Tu as plus \u2026{color=red} \u01BF\u1F82\u1FA0\u1FE5\u1FB0\u1EFB\u1EF1\u1F15
-    {/color} ...  "
+    {/color} ..."
   description: 
   character: {fileID: 1844019563}
   portrait: {fileID: 0}
@@ -6470,7 +6443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 770.57654
     y: -1219.745
-    width: 148.50748
+    width: 140.16394
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6590,7 +6563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 625.3607
     y: -1219.0198
-    width: 102.238815
+    width: 97.54099
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6706,7 +6679,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 454.87787
     y: -1221.0607
-    width: 124.62688
+    width: 117.21313
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6788,7 +6761,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &504165232
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6801,6 +6774,24 @@ MonoBehaviour:
   itemId: 497
   indentLevel: 0
   musicClip: {fileID: 8300000, guid: 5b824fa4a89719a43a14be6c265f53dc, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &504165233
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504164999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 498
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: aa2e6997c033f3e428691f79e21ca512, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -6948,6 +6939,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &595869140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 595869142}
+  - component: {fileID: 595869141}
+  m_Layer: 0
+  m_Name: Localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &595869141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595869140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: 
+  localizationFile: {fileID: 0}
+--- !u!4 &595869142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595869140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656857257
 GameObject:

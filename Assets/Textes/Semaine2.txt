@@ -1,0 +1,234 @@
+#SAY.Flowchart.1.
+Une semaine de plus …
+
+#SAY.Flowchart.9.
+Ça devient un peu plus facile de prendre les commandes des clients.
+
+#SAY.Flowchart.8.
+Moi qui n’ai jamais été doué en langues étrangères, on peut dire que ce petit séjour en immersion extrême fait ressortir le polyglotte en moi.
+
+#SAY.Flowchart.7.
+C’est fou comme la menace de mourir seul dans la rue peut être une source de motivation !
+
+#SAY.Flowchart.6.BOSS
+ꭑἑṟṩἰ ῤὀὕṟ ṯὀὕ . Ṧὰήṩ ₪ὶῇᾁ c’était dur !
+
+#SAY.Flowchart.5.STOL
+De rien Boss !
+
+#SAY.Flowchart.4.
+C’est vrai que Nina n’est pas venue aujourd’hui, dire qu’elle devait m’aider à mettre la main sur le voleur et sur mon portefeuille…
+
+#SAY.Flowchart.3.
+M’enfin, je ne vais pas me laisser abattre ! Je vais mener moi-même l'enquête  !
+
+#SAY.Flowchart.2.
+Premier arrêt ? Le bar, évidemment !
+
+#SAY.Flowchart.11.BARMAID
+ẞῐἓἣvἓἣὓ  !
+
+#SAY.Flowchart.17.BARMAID
+Ὁὼ ἑṩ ṯὀἰ. ₪ὶῇᾁ έ ῤὰ Ἰὰ ?
+
+#SAY.Flowchart.16.STOL
+Salut ! Non, je suis sἓul.
+
+#SAY.Flowchart.15.STOL
+Je chἓrche des infos sur le voleur, le ẞrἲῘῗᾹᾒđ
+
+#SAY.Flowchart.14.BARMAID
+Oh, je n'en sais pas plus. Demande aux habitués, ils savent tout du quartier.
+
+#SAY.Flowchart.13.
+Mmmh.. Ce n’est pas une mauvaise idée, ce sera un début.
+
+#SAY.Flowchart.12.
+Bon, allez au boulot ! Certains habitués pourraient m’aider. Enfin si j’arrive à me faire comprendre.
+
+#SAY.Flowchart.19.
+Une femme en uniforme de postière est affalée sur le comptoir, cinq ou six verres sont éparpillés autour d’elle. Elle a l’air d’avoir passé une rude journée …
+
+#SAY.Flowchart.20.
+Dans un coin sombre, un vieil homme semble me fixer par-dessus son journal et au travers de ses lunettes de soleil …
+
+#SAY.Flowchart.18.
+Par qui vais-je commencer ?
+
+#MENU.Flowchart.21
+La femme
+
+#MENU.Flowchart.22
+Le vieil homme
+
+#SAY.Flowchart.25.
+Elle se redressa brusquement quand Stol s'approcha d'elle.
+
+#SAY.Flowchart.32.POSTGIRL
+: Rhaaaaaaaaaaaa
+
+#SAY.Flowchart.31.
+Elle me remarque.
+
+#SAY.Flowchart.30.POSTGIRL
+!
+
+#SAY.Flowchart.29.POSTGIRL
+Tὀἰ ! ṯṟὀὕὼέ ṦὀἸὕṩίὀή !
+
+#SAY.Flowchart.28.STOL
+hein ?
+
+#SAY.Flowchart.27.POSTGIRL
+ṯṟὀὕὼέ ṦὀἸὕṩίὀή ῤὀῡṟ ꭑὀᾐ ὼέὀἸἸὉ !
+
+#MENU.Flowchart.33
+Pour sa colossale ardoise ?
+
+#MENU.Flowchart.34
+Pour son vélo ?
+
+#SAY.Flowchart.56.
+Au moment où l'homme croise mon regard, il le détourne, absorbé par le pan de mur à côté de lui. Il me fait discrètement signe de m’assoir à côté de lui.
+
+#SAY.Flowchart.66.VIEIL HOMME
+ῤέṟṧὀᾐ ᾐέ ṧὺἰṯ ṯὀῡ ?
+
+#SAY.Flowchart.65.STOL
+Quoi ?
+
+#SAY.Flowchart.64.VIEIL HOMME
+Vous seul ?!
+
+#SAY.Flowchart.63.STOL
+Oui ! Vous le voyez bien non ?
+
+#SAY.Flowchart.62.
+(Peut-être pas en fait, avec ces lunettes dans une atmosphère si sombre, c’est étonnant qu’il arrive à lire son journal …)
+
+#SAY.Flowchart.61.VIEIL HOMME
+Bien, Biἓn.
+
+#SAY.Flowchart.60.VIEIL HOMME
+Je sais tout.
+
+#SAY.Flowchart.67.VIEIL HOMME
+Je sais qui vole.
+
+#SAY.Flowchart.69.VIEIL HOMME
+Ils sont partout !
+
+#SAY.Flowchart.59.
+Oh non, il va dire un truc raciste ...
+
+#SAY.Flowchart.58.
+Attendez une seconde... "Ils" ?
+
+#SAY.Flowchart.57.
+Ils sont plusieurs ?
+
+#SAY.Flowchart.68.VIEIL HOMME
+Bien sûr.
+
+#SAY.Flowchart.74.VIEIL HOMME
+Ils se cachent en hauteur dans les ᾓᾢὸὺὼάṟ.
+
+#SAY.Flowchart.73.VIEIL HOMME
+Ils prennent tout, ils aiment les choses brillantes…
+
+#SAY.Flowchart.72.VIEIL HOMME
+Ils sont nombreux et très organisés ...
+
+#SAY.Flowchart.70.
+Il parle d'une mafia ou je me trompe ?!
+
+#SAY.Flowchart.75.
+Je suis en train d'enquêter sur la mafia locale ?!
+
+#SAY.Flowchart.81.
+Oh non non non... Nina ! Elle n’était pas là aujourd’hui ! Est-ce que …
+
+#SAY.Flowchart.80.
+Est-ce qu'elle ? ...
+
+#SAY.Flowchart.79.
+Rah !
+
+#SAY.Flowchart.78.STOL
+Comment s’appellent-ils ?!
+
+#SAY.Flowchart.77.VIEIL HOMME
+Tout le monde le sait, ce sont les έḵῡὦὂἰἹἱ, toujours à la recherche de métal pour leurs ὦέṯάἹ.
+
+#SAY.Flowchart.76.
+C’est une catastrophe, je dois rentrer et me cacher. La mafia locale me cherche peut-être. Retour au café, je ne peux pas rester ici.
+
+#SAY.Flowchart.38.STOL
+Hors de question que je paye pour vous, madame ! Désolé, mais c'est non ! 
+
+#SAY.Flowchart.40.POSTGIRL
+Je ne parle pas de boisson, je parle de mon vélo ḵṟέὼṯἰή ! *Elle imite quelqu’un sur un vélo en penchant dangereusement sur son siège.*
+
+#MENU.Flowchart.46
+Votre... vélo ?
+
+#SAY.Flowchart.42.POSTGIRL
+Oui mon vélo !
+
+#SAY.Flowchart.45.
+On me l’a pris !
+
+#SAY.Flowchart.44.
+Oh ! Avez-vous vu le voleur ?
+
+#SAY.Flowchart.50.POSTGIRL
+Non ! J’étais juste à côté ! Il était accroché à  ᾓᾢὸὺὼάṟ, je le laisse sans surveillance une minute et pouf, disparu !
+
+#SAY.Flowchart.49.STOL
+Hem, vous êtes sûre qu’il était bien attaché ?
+
+#SAY.Flowchart.48.POSTGIRL
+JE SAIS CE QUE JE FAIS, JE SUIS UNE PRO -hic- UNE PROFESSIONNELLE !!
+
+#SAY.Flowchart.47.
+Elle s’écroule de nouveau sur le comptoir, impossible d’en tirer quoi que ce soit de cohérent …
+
+#SAY.Flowchart.51.
+Le mystère s’épaissit... On n’a pas à faire à un amateur.
+
+#SAY.Flowchart.43.
+Si c’est bien mon voleur qui a pris ce vélo, ça veut dire qu’il est capable de dérober un vélo cadenassé en un éclair. Peut-être sont-ils plusieurs ? …
+
+#SAY.Flowchart.54.
+L’enquête continue ...
+
+#SAY.Flowchart.53.
+Je devrais aller voir ce vieux, il a l'air bizarre, mais est louche, il sait certainement quelque chose ...
+
+#SAY.Flowchart.485.Narrateur
+Une nouvelle semaine s'achève.
+
+#CHARACTER.NINA
+NINA
+
+#CHARACTER.CONTROLEUR
+CONTROLEUR
+
+#CHARACTER.BOSS
+BOSS
+
+#CHARACTER.STOL
+STOL
+
+#CHARACTER.Narrateur
+Narrateur
+
+#CHARACTER.BARMAID
+BARMAID
+
+#CHARACTER.POSTGIRL
+POSTGIRL
+
+#CHARACTER.VIEIL HOMME
+VIEIL HOMME
+

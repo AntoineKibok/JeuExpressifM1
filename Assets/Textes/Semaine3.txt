@@ -1,0 +1,137 @@
+#SAY.Flowchart.1.
+Une semaine que Nina a disparu, une semaine …
+#SAY.Flowchart.77.
+J’ai tout de suite demandé où elle était à Boss bien sûr. Sauf que je ne comprends toujours rien à ce qu’il me raconte !
+#SAY.Flowchart.76.
+Il n’a pas l’air de s’en faire le moins du monde, à croire que Nina n’a jamais existé …
+#SAY.Flowchart.75.
+Est-ce que je deviens dingue ?
+#SAY.Flowchart.74.
+Ou est-ce que l’organisation à laquelle je fais face est si puissante qu’elle est capable d’acheter ou d’intimider n’importe qui en ville ? Même Boss ?
+#SAY.Flowchart.73.
+Raah, je ne peux plus faire confiance à personne, je sens que ma vie est en danger je .. je ….
+#SAY.Flowchart.72.NINA
+ṦὰἸὕ Stol ! J’ai ῤὰ ꭑὰήḵέ ὰ ṯὀἱ trop ?
+#SAY.Flowchart.71.STOL !!
+#SAY.Flowchart.81.STOL ...
+#SAY.Flowchart.80.STOL
+Mais !
+#SAY.Flowchart.79.STOL
+Nina !! Qu'est-ce que ?!
+#SAY.Flowchart.78.NINA
+Je n’étais pὰs bien… malade.
+#SAY.Flowchart.70.NINA
+Tu t’es inquiété Stol ?
+#SAY.Flowchart.69.NINA
+Tu es mignon ! Haha !
+#SAY.Flowchart.68.STOL
+Nina ! La semaine dernière j’ai appris des choses. Je pense qu'on n'ὰ pas à faire à ὕn voleur isolé.
+#SAY.Flowchart.67.STOL
+Les gens parlent d’ὕn groupe …
+#SAY.Flowchart.66.NINA
+Un groupέ … Comme mafia ?!
+#SAY.Flowchart.65.NINA
+Haha, Stol, il n’y a pas mafia sur Callisto !
+#SAY.Flowchart.64.STOL
+Mais j’ai fait mon enquête !!
+#SAY.Flowchart.85.STOL
+Certains parlent, ils disent qu’ils sont partout.
+#SAY.Flowchart.84.STOL
+Ils volent en plein jour.
+#SAY.Flowchart.83.STOL
+La police ne fait rien !
+#SAY.Flowchart.82.STOL
+Ils habitent en hauteur et surveillent leurs cibles.
+#SAY.Flowchart.89.STOL ...
+#SAY.Flowchart.88.STOL
+J'ai cru qu'ils t'avaient enlevée ...
+#SAY.Flowchart.63.NINA
+Bwahahahaha
+#SAY.Flowchart.62.NINA
+Oh Stol, tu regardέs trop d’holomovies toi.
+#SAY.Flowchart.61.NINA
+Comment tu dis ils appellent ?
+#SAY.Flowchart.60.STOL
+Ah, j’ai retenu ça !
+#SAY.Flowchart.59.
+Les {color=red}"έḵῡὦὂἰἹἱ"{/color}.
+#SAY.Flowchart.58.
+J'essaye d'y mettre le ton pour l'effet dramatique.
+#SAY.Flowchart.57.NINA
+Les ... {color=red}έḵῡὦὂἰἹἱ{/color} ?
+#SAY.Flowchart.56.STOL
+Oui ! Tu les connais ? Ils sont dangereux ?
+#SAY.Flowchart.55.NINA : Bwahahahahahahahahah
+#SAY.Flowchart.54.NINA
+Tu …
+#SAY.Flowchart.53.NINA
+Hahahahahaha
+#SAY.Flowchart.52.STOL
+Arrête de te moquer et parle ! Qu’est-ce que j’ai dit de si drôle ?!
+#SAY.Flowchart.51.NINA {color=red}έḵῡὦὂἰἹἱ{/color} c'est ...
+#SAY.Flowchart.50.NINA
+Comment on dit déjà ?...
+#SAY.Flowchart.49.NINA des écureuils.
+#SAY.Flowchart.48.STOL
+Quoi ?… Tu n'es pas sérieuse ?
+#SAY.Flowchart.47.NINA
+Hahahaha
+#SAY.Flowchart.46.STOL
+Mais, comment et pourquoi des écureuils voleraient-ils des portefeuilles et des vélos entiers ?
+#SAY.Flowchart.45.NINA
+Ici, sur Callisto, les écureuils sont intelligents, ils travaillent en groupe.
+#SAY.Flowchart.44.NINA
+Et ils aiment les choses brillantes, beaucoup !
+#SAY.Flowchart.43.STOL
+Ce serait donc pour ça que tous les vols concernent des choses métalliques ! Ils s’en sont pris à mon portefeuille pour la monnaie…
+#SAY.Flowchart.42.STOL
+Je me sens tellement bête. Je me suis fait un film…
+#SAY.Flowchart.41.NINA
+Ne sois pas dur avec toi Stol. C’est difficile autre langue.
+#SAY.Flowchart.40.STOL
+Si je comprends bien, je n’ai plus aucune chance de retrouver mon portefeuille.
+#SAY.Flowchart.39.NINA
+Il y a une chance, les écureuils n’aiment que les choses brillantes, ils ont dû abandonner le reste sous un arbre dans le quartier.
+#SAY.Flowchart.38.NINA
+Je vais t’aider à chercher !
+#SAY.Flowchart.92.
+*quelques heures plus tard*
+#SAY.Flowchart.99.NINA
+Ah Stol ! Là !
+#SAY.Flowchart.98.NINA
+C’est ça ?
+#SAY.Flowchart.97.
+Le portefeuille est en piteux état, mordillé et couvert de boue, mais pas de doutes c’est bien le mien. Et mes papiers sont à l’intérieur ! Ma carte de paiement, mon passeport !
+#SAY.Flowchart.96.STOL
+Je vais pouvoir partir d’ici !
+#SAY.Flowchart.95.
+Nina me regarde d’un air triste, mais se reprend vite
+#SAY.Flowchart.94.NINA
+Oui Stol, tu va pouvoir aller chez toi !
+#SAY.Flowchart.93.
+Que faire ?
+#MENU.Flowchart.101
+Rester ?
+#MENU.Flowchart.102
+Partir ?
+#SAY.Flowchart.112.
+Tu sais quoi ? Je pense que je vais rester un peu plus longtemps.
+#SAY.Flowchart.116.
+Au début, je trouvais cette planète horrible, incompréhensible.
+#SAY.Flowchart.115.
+Mais on s'y fait.
+#SAY.Flowchart.114.
+Et je suis plus à l'aise avec la langue maintenant.
+#SAY.Flowchart.113.
+Maintenant que j'ai récupéré mes papiers, je vais pouvoir arrêter de dormir au café.
+#SAY.Flowchart.117.
+Mes parents seront contents de savoir que je ne suis pas mort, je suppose.
+#SAY.Flowchart.125.
+La Lune m'attend !
+#SAY.Flowchart.494.
+Ainsi se termine l'aventure de Stϙl
+#CHARACTER.CONTROLEUR CONTROLEUR
+#CHARACTER.BOSS BOSS
+#CHARACTER.BARMAID BARMAID
+#CHARACTER.STOL STOL
+#CHARACTER.NINA NINA
